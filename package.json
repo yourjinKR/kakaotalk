@@ -1,0 +1,39 @@
+{
+  "name": "katalk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "desktop/main.cjs",
+  "description": "친구와 대화에 집중하는 나만의 PC 메신저",
+  "scripts": {
+    "dev": "concurrently -k -n server,web \"node --watch server/index.mjs\" \"vite --host 127.0.0.1\"",
+    "build": "tsc -b && vite build",
+    "start": "node server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "desktop:install": "install-electron",
+    "predesktop": "npm run desktop:install",
+    "desktop": "npm run build && electron .",
+    "predesktop:dev": "npm run desktop:install",
+    "desktop:dev": "node scripts/desktop-dev.mjs",
+    "test:ui": "playwright test",
+    "test:desktop": "npm run desktop:install && npm run build && node tests/desktop-smoke.mjs",
+    "format": "prettier --write src server desktop scripts tests *.json *.ts *.html"
+  },
+  "dependencies": {
+    "lucide-react": "^1.61.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "concurrently": "^10.0.6",
+    "electron": "^45.0.0",
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}

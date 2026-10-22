@@ -1,0 +1,767 @@
+{
+  "record_type": "Supplemental local static package observations; not REA Evidence",
+  "observation_id": "local-kakaotalk-package-ui-20261022",
+  "observed_date": "2026-10-22",
+  "method": "Read selected installed package files; parse XML with DTD prohibited and XmlResolver disabled; hash exact input bytes.",
+  "executable": {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\KakaoTalk.exe",
+    "file_version": "26.9.0.5337",
+    "product_version": "26.9.0.5337",
+    "bytes": 25430632,
+    "sha256": "23d0025988d3dd413801823657c5ac00e69945221d973aef7314f220142ab6a5"
+  },
+  "sources": [
+    {
+      "name": "strings",
+      "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+      "sha256": "b724986fc17b644287564bb263e7dd97aea267d5ea0443a6f9d99276a387b5ec",
+      "bytes": 1353901
+    },
+    {
+      "name": "colors",
+      "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\v3\\color\\color.xml",
+      "sha256": "876c97130fe7d883d2f306381691a485700880b3766da56911a4ea4075d1102f",
+      "bytes": 14728
+    },
+    {
+      "name": "image_states",
+      "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\image\\Resource.xml",
+      "sha256": "cbda630d840331cb2864039ff22cad7e6985353216f70c803d105acd722f07d1",
+      "bytes": 407153
+    },
+    {
+      "name": "fonts",
+      "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\v3\\font\\font_ko.xml",
+      "sha256": "fbb0b05f6086eb4f23cca1f05da60d9ffff6586322f6a99b6ffe0d6c55499a5c",
+      "bytes": 9945
+    }
+  ],
+  "total_string_records": 5805,
+  "selected_strings": [
+    {
+      "id": "IDS_ADDFRIENDDLG_100001",
+      "line": 7717,
+      "ko": "친구 추가",
+      "en": "Add Friends"
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100002",
+      "line": 7722,
+      "ko": "친구 카카오톡 ID",
+      "en": "KakaoTalk ID"
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100005",
+      "line": 7727,
+      "ko": "카카오톡 ID를 등록하고 검색을 허용한 친구만 찾을 수 있습니다.",
+      "en": "You can find friends if they have created an ID and it is set as searchable to others. "
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100007",
+      "line": 7737,
+      "ko": "입력하신 아이디로 등록한 회원이 없거나\n검색이 허용되지 않은 회원입니다.",
+      "en": "This ID does not exist or\nis non-searchable."
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100008",
+      "line": 7742,
+      "ko": "1:1 채팅",
+      "en": "1:1 Chat"
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100011",
+      "line": 7752,
+      "ko": "연락처로 추가",
+      "en": "Add by Contacts"
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100012",
+      "line": 7757,
+      "ko": "ID로 추가",
+      "en": "Add by ID"
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100014",
+      "line": 7762,
+      "ko": "친구 이름",
+      "en": "Name"
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100015",
+      "line": 7767,
+      "ko": "전화번호",
+      "en": "Phone Number"
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100020",
+      "line": 7772,
+      "ko": "국가번호",
+      "en": "Country Code"
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100021",
+      "line": 7777,
+      "ko": "친구의 이름과 전화번호를 입력해주세요.",
+      "en": "Enter a name and phone number."
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100022",
+      "line": 7782,
+      "ko": "친구의 이름을 입력해주세요.",
+      "en": "Please enter a name."
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100024",
+      "line": 7787,
+      "ko": "친구 등록이 완료되었습니다.",
+      "en": "Successfully added."
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100028",
+      "line": 7807,
+      "ko": "차단해제",
+      "en": "Unblock"
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100030",
+      "line": 7817,
+      "ko": "숨김 설정된 친구입니다.",
+      "en": "This user is hidden from your friends list."
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100031",
+      "line": 7822,
+      "ko": "이미 등록된 친구입니다.",
+      "en": "This user is already on your friends list."
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100032",
+      "line": 7827,
+      "ko": "차단 해제 후 친구 등록이 완료되었습니다.",
+      "en": "This user has been unblocked and added."
+    },
+    {
+      "id": "IDS_ADDFRIENDDLG_100033",
+      "line": 7832,
+      "ko": "나 자신은 영원한 인생의 친구입니다.",
+      "en": "You cannot add yourself."
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100001",
+      "line": 7847,
+      "ko": "숨김 해제",
+      "en": "Unhide"
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100002",
+      "line": 7852,
+      "ko": "차단",
+      "en": "Block"
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100007",
+      "line": 7877,
+      "ko": "숨김 친구",
+      "en": "Hidden Friends"
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100008",
+      "line": 7882,
+      "ko": "숨김 친구가 없습니다.",
+      "en": "You have no hidden friends."
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100009",
+      "line": 7887,
+      "ko": "차단 친구",
+      "en": "Blocked Friends"
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100010",
+      "line": 7892,
+      "ko": "차단 친구가 없습니다.",
+      "en": "You have no blocked friends. "
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100013",
+      "line": 7907,
+      "ko": "차단하시겠습니까?\n차단하면 친구가 보내는 메시지를 받을 수 없으며\n친구 목록에서 삭제됩니다.\n\n(차단 여부는 상대방이 알 수 없습니다)",
+      "en": "Are you sure you want to block this friend?\nYou will no longer receive any messages from this friend, nor will he/she appear in your friends list.\n\n(Blocked friends will not be notified that they have been blocked.)"
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100015",
+      "line": 7917,
+      "ko": "차단이 해제되었습니다.\n지금 바로 친구로 추가하시겠습니까?",
+      "en": "Your friend is now unblocked.\nDo you want to reinstate this  friend to your friends list now?"
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100024",
+      "line": 7962,
+      "ko": "친구관리",
+      "en": "Manage Friends"
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100025",
+      "line": 7967,
+      "ko": "선택한 친구를 삭제합니다.\n모바일 연락처에 등록되어 있어도 카카오톡 친구로 추가되지 않습니다.\n상대방이 보낸 메시지는 받을 수 있습니다.",
+      "en": "Are you sure you want to delete this user?\nEven if you delete, you may still receive messages from the user."
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100028",
+      "line": 7982,
+      "ko": "삭제",
+      "en": "Delete"
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100029",
+      "line": 7987,
+      "ko": "메시지 차단, 프로필 비공개",
+      "en": "Block Messages, Hide My Profile"
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100030",
+      "line": 7992,
+      "ko": "메시지 차단",
+      "en": "Block Messages"
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100032",
+      "line": 8002,
+      "ko": "차단 관리",
+      "en": "Blocked Friends"
+    },
+    {
+      "id": "IDS_FRIENDMNGRLSTCTRL_100054",
+      "line": 8107,
+      "ko": "친구가 숨김 처리되었습니다.",
+      "en": "This friend has been hidden."
+    },
+    {
+      "id": "IDS_FRIEND_INFO_MEMO",
+      "line": 26374,
+      "ko": "메모",
+      "en": "Memo"
+    },
+    {
+      "id": "IDS_FRIEND_INFO_MEMO_INPUT",
+      "line": 26379,
+      "ko": "메모 입력",
+      "en": "Enter memo."
+    },
+    {
+      "id": "IDS_FRIEND_INFO_MEMO_DESCRIPTION",
+      "line": 26384,
+      "ko": "입력된 메모는 나에게만 보입니다.",
+      "en": "Only you can see the memo."
+    },
+    {
+      "id": "IDS_PROFILE_100002",
+      "line": 913,
+      "ko": "즐겨찾기",
+      "en": "Favorites"
+    },
+    {
+      "id": "IDS_PROFILE_100046",
+      "line": 1113,
+      "ko": "나와의 채팅",
+      "en": "My Chatroom"
+    },
+    {
+      "id": "IDS_PROFILE_100090",
+      "line": 1313,
+      "ko": "친구 숨김",
+      "en": "Hide Friend"
+    },
+    {
+      "id": "IDS_PROFILE_100091",
+      "line": 1318,
+      "ko": "친구 차단",
+      "en": "Block Friend"
+    },
+    {
+      "id": "IDS_PROFILE_100092",
+      "line": 1323,
+      "ko": "메시지 차단",
+      "en": "Block Messages"
+    },
+    {
+      "id": "IDS_PROFILE_100093",
+      "line": 1328,
+      "ko": "메시지 차단, 프로필 비공개",
+      "en": "Block Messages, Hide My Profile"
+    },
+    {
+      "id": "IDS_PROFILE_100094",
+      "line": 1333,
+      "ko": "친구 숨김 해제",
+      "en": "Unhide Friend"
+    },
+    {
+      "id": "IDS_PROFILE_100098",
+      "line": 1353,
+      "ko": "친구 삭제",
+      "en": "Remove Friend"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100004",
+      "line": 2046,
+      "ko": "채팅방 열기",
+      "en": "Open Chat Room"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100005",
+      "line": 2051,
+      "ko": "채팅방 나가기",
+      "en": "Leave Chatroom"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100006",
+      "line": 2056,
+      "ko": "즐겨찾기 등록",
+      "en": "Add to Favorites"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100007",
+      "line": 2061,
+      "ko": "채팅을 시작해보세요",
+      "en": "Start chatting!"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100008",
+      "line": 2066,
+      "ko": "우측 상단의 새로운 채팅 버튼을 눌러\n다양한 채팅방을 만들어보세요.",
+      "en": "Tap the chat bubble icon on the top-right to create a chatroom."
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100010",
+      "line": 2076,
+      "ko": "알림 끄기",
+      "en": "Turn off alert"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100011",
+      "line": 2081,
+      "ko": "알림 켜기",
+      "en": "Turn on alert"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100014",
+      "line": 2096,
+      "ko": "즐겨찾기 해제",
+      "en": "Remove from Favorites"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100019",
+      "line": 2121,
+      "ko": "채팅방, 참여자 검색",
+      "en": "Search chatrooms"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100031",
+      "line": 2156,
+      "ko": "최신 메시지 순",
+      "en": "By Time"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100032",
+      "line": 2161,
+      "ko": "안 읽은 메시지 순",
+      "en": "By Unread Chats"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100033",
+      "line": 2166,
+      "ko": "즐겨찾기 순",
+      "en": "By Favorites"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100034",
+      "line": 2171,
+      "ko": "채팅방 상단 고정",
+      "en": "Pin to Top"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100035",
+      "line": 2176,
+      "ko": "채팅방 상단 해제",
+      "en": "Unpin"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100036",
+      "line": 2181,
+      "ko": "10개까지 상단 고정할 수 있습니다.",
+      "en": "You can pin up to 10 chatrooms."
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100041",
+      "line": 2201,
+      "ko": "읽음 처리",
+      "en": "Mark as Read"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100042",
+      "line": 2206,
+      "ko": "숨긴 나와의 채팅방은 내 프로필에서 확인하실 수 있으며, 메시지를 보내면 목록에 다시 나타납니다.",
+      "en": "You can access My Chatroom from your profile even if you hide from the list. Send a message to My Chatroom to reinstate to chatrooms list."
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100043",
+      "line": 2211,
+      "ko": "나와의 채팅방 숨김",
+      "en": "Hide My Chatroom"
+    },
+    {
+      "id": "IDS_CHATROOMLIST_100044",
+      "line": 2216,
+      "ko": "모두 읽음 처리",
+      "en": "Read All"
+    },
+    {
+      "id": "IDS_CHATLOG_100010",
+      "line": 3875,
+      "ko": "전송중",
+      "en": "Sending"
+    },
+    {
+      "id": "IDS_CHATLOG_100011",
+      "line": 3880,
+      "ko": "전송실패",
+      "en": "Failed to send"
+    },
+    {
+      "id": "IDS_CHATLOG_100056",
+      "line": 4046,
+      "ko": "재전송",
+      "en": "Resend"
+    },
+    {
+      "id": "IDS_CHATLOG_100058",
+      "line": 4056,
+      "ko": "전송 취소",
+      "en": "Cancel sending"
+    },
+    {
+      "id": "IDS_CHATLOG_SEARCH_100001",
+      "line": 4911,
+      "ko": "첫 번째 검색 결과입니다.",
+      "en": "First search results."
+    },
+    {
+      "id": "IDS_CHATLOG_SEARCH_100003",
+      "line": 4916,
+      "ko": "검색 결과가 없습니다.",
+      "en": "No results."
+    },
+    {
+      "id": "IDS_CHATLOG_SEARCH_100005",
+      "line": 4926,
+      "ko": "대화내용 검색",
+      "en": "Search Chats"
+    },
+    {
+      "id": "IDS_CHATLOG_CONTEXTMENU_100011",
+      "line": 4986,
+      "ko": "답장",
+      "en": "Reply"
+    },
+    {
+      "id": "IDS_CHATLOG_CONTEXTMENU_100012",
+      "line": 4991,
+      "ko": "모두에게서 삭제",
+      "en": "Delete for Everyone"
+    },
+    {
+      "id": "IDS_CHATLOG_CONTEXTMENU_100013",
+      "line": 4996,
+      "ko": "나에게서만 삭제",
+      "en": "Delete only for me"
+    },
+    {
+      "id": "IDS_CHATROOM_MENU_100001",
+      "line": 14286,
+      "ko": "대화상대 초대하기",
+      "en": "Invite friends"
+    },
+    {
+      "id": "IDS_CHATROOM_MENU_100016",
+      "line": 14336,
+      "ko": "대화 내보내기",
+      "en": "Export Chats"
+    },
+    {
+      "id": "IDS_CHATROOM_MENU_100018",
+      "line": 14346,
+      "ko": "채팅방 나가기",
+      "en": "Leave Chatroom"
+    },
+    {
+      "id": "IDS_CHATROOM_MENU_100023",
+      "line": 14376,
+      "ko": "대화 내용 모두 삭제",
+      "en": "Delete Chat History"
+    },
+    {
+      "id": "IDS_CHATROOM_MENU_100033",
+      "line": 14416,
+      "ko": "대화상대",
+      "en": "Chat Members"
+    },
+    {
+      "id": "IDS_CHATROOM_INFO_100002",
+      "line": 3700,
+      "ko": "채팅방 이름",
+      "en": "Chatroom Name"
+    },
+    {
+      "id": "IDS_CHATROOM_INFO_100017",
+      "line": 3760,
+      "ko": "내가 설정한 사진과 이름은 나에게만 보입니다.",
+      "en": "The photo and name set by you will be shown only to you."
+    },
+    {
+      "id": "IDS_CHAT_INVITE_100001",
+      "line": 2386,
+      "ko": "대화상대 선택",
+      "en": "Choose Participants"
+    },
+    {
+      "id": "IDS_CHAT_INVITE_100015",
+      "line": 2446,
+      "ko": "이 멤버들과 새로운 채팅",
+      "en": "New Chatroom"
+    },
+    {
+      "id": "IDS_CHATROOM_SETTING_MOUSE_OVER_MENU_DESC",
+      "line": 28211,
+      "ko": "말풍선에 마우스 커서를 올려서 리액션 및 답장/댓글 기능을 사용할 수 있습니다.",
+      "en": "Hover over chat bubbles to react, reply, or comment."
+    },
+    {
+      "id": "IDS_SETTINGVIEW_PRESENT_CHAT_MEMBER_WRITING_STATUS_DESCRIPTION",
+      "line": 28061,
+      "ko": "채팅방에서 친구가 메시지 입력 중인 상태를 확인하고, 내 상태도 공유할 수 있습니다.",
+      "en": "You can see who is typing in the chat, and also show your typing status to others."
+    }
+  ],
+  "selected_colors": [
+    {
+      "id": "B85",
+      "hex": "191919"
+    },
+    {
+      "id": "B70",
+      "hex": "424242"
+    },
+    {
+      "id": "B40",
+      "hex": "949494"
+    },
+    {
+      "id": "B10",
+      "hex": "E6E6E6"
+    },
+    {
+      "id": "B3",
+      "hex": "F5F5F5"
+    },
+    {
+      "id": "B0",
+      "hex": "FFFFFF"
+    },
+    {
+      "id": "Y100",
+      "hex": "FEE500"
+    },
+    {
+      "id": "Y100H",
+      "hex": "FADA0A"
+    },
+    {
+      "id": "Y100D",
+      "hex": "F2D00F"
+    },
+    {
+      "id": "Y50",
+      "hex": "FFF280"
+    },
+    {
+      "id": "CHATBG01",
+      "hex": "BACEE0"
+    },
+    {
+      "id": "BLUE500S",
+      "hex": "0A73DC"
+    }
+  ],
+  "selected_image_group_states": [
+    {
+      "id": "chatroom_menu_favorite",
+      "states": [
+        "normal",
+        "hover",
+        "disable"
+      ]
+    },
+    {
+      "id": "chatroom_menu_pin",
+      "states": [
+        "normal",
+        "hover",
+        "disable"
+      ]
+    },
+    {
+      "id": "chatroom_menu_alarm",
+      "states": [
+        "normal",
+        "hover",
+        "disable"
+      ]
+    },
+    {
+      "id": "chatroom_menu_favorite_off",
+      "states": [
+        "normal",
+        "hover",
+        "disable"
+      ]
+    },
+    {
+      "id": "chatroom_menu_pin_off",
+      "states": [
+        "normal",
+        "hover",
+        "disable"
+      ]
+    },
+    {
+      "id": "chatroom_menu_alarm_off",
+      "states": [
+        "normal",
+        "hover",
+        "disable"
+      ]
+    },
+    {
+      "id": "chatroom_menu_icon_exit",
+      "states": [
+        "normal",
+        "disable"
+      ]
+    },
+    {
+      "id": "chatroom_menu_icon_invite",
+      "states": [
+        "normal",
+        "disable"
+      ]
+    }
+  ],
+  "selected_font_aliases": [
+    {
+      "id": "Head01",
+      "font_id": "Font15"
+    },
+    {
+      "id": "Head02",
+      "font_id": "Font13"
+    },
+    {
+      "id": "Head03",
+      "font_id": "Font12"
+    },
+    {
+      "id": "Body01",
+      "font_id": "Font11"
+    },
+    {
+      "id": "Body02",
+      "font_id": "Font10"
+    },
+    {
+      "id": "Sub01",
+      "font_id": "Font9"
+    },
+    {
+      "id": "Sub02",
+      "font_id": "Font8"
+    },
+    {
+      "id": "Sub03",
+      "font_id": "Font7"
+    }
+  ],
+  "layout_probe": [
+    {
+      "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\OnlineMainView.xml",
+      "bytes": 6912,
+      "sha256": "130a38c77ccd3132cfb18f3456aebe4562faecac7fd8d6d7867b3114e10b258b",
+      "first16Hex": "39537D0F5AA72E9249DD50DF1180838A",
+      "parsedAsXml": false,
+      "conclusion": "Opaque bytes under an XML filename; no layout geometry or behavior inferred."
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\FriendListView.xml",
+      "bytes": 240,
+      "sha256": "fa6993c87256f0d1c0a97fb5fa327c08e9bc2cec92143fbf7101858eb8ec255f",
+      "first16Hex": "6DF2366A345616F41A7E567E60B82755",
+      "parsedAsXml": false,
+      "conclusion": "Opaque bytes under an XML filename; no layout geometry or behavior inferred."
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\ContactListItemFriend.xml",
+      "bytes": 2112,
+      "sha256": "9993a931e8a9eebea2aebd1cec714a13dec56e64da80b559df0fc0657503ee5a",
+      "first16Hex": "39537D0F5AA72E9249DD50DF1180838A",
+      "parsedAsXml": false,
+      "conclusion": "Opaque bytes under an XML filename; no layout geometry or behavior inferred."
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\ChatRoomListItem.xml",
+      "bytes": 5744,
+      "sha256": "c162afe5f00b5e19539fbe6acae156b3bbec9dcd81cb177733dacd00ce65513f",
+      "first16Hex": "39537D0F5AA72E9249DD50DF1180838A",
+      "parsedAsXml": false,
+      "conclusion": "Opaque bytes under an XML filename; no layout geometry or behavior inferred."
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\ChatLogViewItem_MsgLeft.xml",
+      "bytes": 9536,
+      "sha256": "6df0a27bad8f79374e7be55ec8ebcdc7bf52ad8248c0eac2e62ed26c16e5ca16",
+      "first16Hex": "39537D0F5AA72E9249DD50DF1180838A",
+      "parsedAsXml": false,
+      "conclusion": "Opaque bytes under an XML filename; no layout geometry or behavior inferred."
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\ChatLogViewItem_MsgRight.xml",
+      "bytes": 6288,
+      "sha256": "fce5cac849d1817287e695606472e8afedd6dec8c50616e114a4ba903f02e633",
+      "first16Hex": "39537D0F5AA72E9249DD50DF1180838A",
+      "parsedAsXml": false,
+      "conclusion": "Opaque bytes under an XML filename; no layout geometry or behavior inferred."
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\AddFriendDlg.xml",
+      "bytes": 2592,
+      "sha256": "d1031005c7aa3d448467bc302a6ef9e06740bff6ac8cb80b745c1a830a94cf1d",
+      "first16Hex": "39537D0F5AA72E9249DD50DF1180838A",
+      "parsedAsXml": false,
+      "conclusion": "Opaque bytes under an XML filename; no layout geometry or behavior inferred."
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\AddFriendByUUIDView.xml",
+      "bytes": 7728,
+      "sha256": "4c839d3a66750948388f3b900a036216bc57cd8e3f167d5f1d8ac96f270d67bb",
+      "first16Hex": "39537D0F5AA72E9249DD50DF1180838A",
+      "parsedAsXml": false,
+      "conclusion": "Opaque bytes under an XML filename; no layout geometry or behavior inferred."
+    }
+  ],
+  "limitations": [
+    "String presence and resource state declarations do not prove code reachability or current runtime behavior.",
+    "The selected layouts are not parseable plain XML; encryption/compression/serialization has not been determined.",
+    "No native pseudocode, protocol, backend, private database, authentication state, or runtime scenario was inspected.",
+    "Asset payloads and layout source were not copied into the reconstructed app.",
+    "The inventory is scoped to selected friend/chat UI records; it is not a complete feature inventory."
+  ]
+}
