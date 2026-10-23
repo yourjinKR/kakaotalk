@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f3ed">
+  <title>카톡 — 가까운 대화</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="카톡 홈"><span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 5h14v11H9l-4 4V5Z"/><path d="M9 9h6m-6 3h4"/></svg></span><span>카톡<span class="brand-caption">가까운 대화</span></span></a>
+    <div class="workspace-label"><span class="status-dot" id="connection-dot"></span><span id="connection-status">연결 중</span><span class="local-badge">로컬 개발 버전</span></div>
+    <div class="account-controls"><label for="account-select">내 계정</label><select id="account-select" aria-label="현재 테스트 사용자"><option value="me">me</option><option value="hana">hana</option><option value="jun">jun</option><option value="sora">sora</option></select><a id="open-session" class="session-link" target="_blank" rel="noopener" href="/?user=hana">다른 사용자 열기 <span aria-hidden="true">↗</span></a></div>
+  </header>
+  <main class="workspace" id="workspace">
+    <nav class="rail" aria-label="주요 메뉴">
+      <div class="rail-top"><span class="rail-mark" aria-hidden="true">k.</span><button class="rail-button active" id="nav-friends" type="button" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="8" r="3"/><path d="M4 20v-2a6 6 0 0 1 12 0v2m1-15a3 3 0 0 1 0 6m2 3a6 6 0 0 1 2 4v2"/></svg><span>친구</span></button><button class="rail-button" id="nav-chats" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v13H9l-5 4V4Z"/><path d="M8 9h8m-8 4h5"/></svg><span>채팅</span><span class="rail-count" id="chat-unread-total" hidden></span></button></div>
+      <div class="rail-bottom"><button class="rail-button" type="button" id="manage-friends"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3"/><circle cx="15" cy="17" r="3"/></svg><span>친구 관리</span></button><span class="rail-user" id="rail-user" aria-hidden="true">나</span></div>
+    </nav>
+    <section class="list-panel" aria-labelledby="list-title">
+      <div class="list-heading"><div><p class="eyebrow" id="list-eyebrow">PEOPLE</p><h1 id="list-title">친구 <span id="list-count">0</span></h1></div><button class="icon-button primary-icon" id="list-action" type="button" aria-label="친구 추가"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button></div>
+      <div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="list-search" type="search" placeholder="이름 또는 ID 검색" aria-label="친구 이름 또는 ID 검색" autocomplete="off"><kbd aria-hidden="true">⌕</kbd></div>
+      <div class="list-scroll" id="list-content"><div class="loading-state"><span class="spinner"></span>친구를 불러오는 중</div></div>
+      <div class="list-footer"><span class="footer-mark" aria-hidden="true">✳</span><span>오롯이, 우리 대화에 집중해요.</span></div>
+    </section>
+    <section class="detail-panel" id="detail-panel" aria-label="친구 프로필 또는 대화"><div class="welcome"><span class="welcome-art" aria-hidden="true">“</span><p class="eyebrow">A LITTLE CLOSER</p><h2>안부 하나로,<br>조금 더 가까이.</h2><p>친구를 선택해 대화를 시작해 보세요.</p></div></section>
+  </main>
+  <dialog id="add-dialog" class="modal" aria-labelledby="add-title"><form id="add-form"><div class="modal-heading"><div><p class="eyebrow">NEW CONNECTION</p><h2 id="add-title">친구 추가</h2></div><button type="button" class="icon-button close-dialog" aria-label="닫기">×</button></div><p class="modal-copy">친구의 ID를 입력해 새로운 대화를 시작하세요.</p><label class="field-label" for="friend-id">친구 ID</label><input class="field-input" id="friend-id" name="friendId" placeholder="예: hana" required autocomplete="off" maxlength="80"><p class="field-help" id="test-ids"></p><p class="form-error" id="add-error" role="alert"></p><div class="modal-actions"><button type="button" class="button secondary close-dialog">취소</button><button type="submit" class="button primary" id="add-submit">친구 추가</button></div></form></dialog>
+  <dialog id="manage-dialog" class="modal" aria-labelledby="manage-title"><div class="modal-heading"><div><p class="eyebrow">YOUR PEOPLE</p><h2 id="manage-title">친구 관리</h2></div><button type="button" class="icon-button close-dialog" aria-label="닫기">×</button></div><p class="modal-copy">숨긴 친구를 다시 목록에 표시할 수 있어요.<br>친구를 숨겨도 메시지는 계속 받을 수 있습니다.</p><h3 class="section-label">숨긴 친구 <span id="hidden-count">0</span></h3><div class="manage-list" id="hidden-list"></div><div class="modal-actions"><button type="button" class="button secondary close-dialog">닫기</button></div></dialog>
+  <dialog id="create-dialog" class="modal" aria-labelledby="create-title"><form id="create-form"><div class="modal-heading"><div><p class="eyebrow">START A CONVERSATION</p><h2 id="create-title">새로운 채팅</h2></div><button type="button" class="icon-button close-dialog" aria-label="닫기">×</button></div><p class="modal-copy">한 명을 선택하면 1:1, 여러 명이면 그룹으로 대화해요.</p><input class="field-input" id="create-search" type="search" placeholder="친구 이름 또는 ID 검색" aria-label="대화상대 검색" autocomplete="off"><div class="picker-list" id="create-friends"></div><div id="group-title-field" hidden><label class="field-label" for="group-title">그룹 이름 <span class="optional">선택</span></label><input class="field-input" id="group-title" placeholder="함께하는 대화" maxlength="60"></div><p class="form-error" id="create-error" role="alert"></p><div class="modal-actions"><span class="selection-count" id="selection-count">0명 선택</span><button type="button" class="button secondary close-dialog">취소</button><button type="submit" class="button primary" id="create-submit" disabled>대화 시작</button></div></form></dialog>
+  <dialog id="members-dialog" class="modal" aria-labelledby="members-title"><div class="modal-heading"><div><p class="eyebrow">IN THIS CONVERSATION</p><h2 id="members-title">대화상대</h2></div><button type="button" class="icon-button close-dialog" aria-label="닫기">×</button></div><div class="members-list" id="members-list"></div><div class="modal-actions"><button type="button" class="button secondary close-dialog">닫기</button></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div><div id="sr-status" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>

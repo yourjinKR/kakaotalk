@@ -1,0 +1,4 @@
+{
+  "code": "UNKNOWN",
+  "message": "Cannot find module 'isexe'\nRequire stack:\n- C:\\Users\\young\\AppData\\Local\\npm-cache\\_npx\\a1722018f28f9df2\\node_modules\\which\\which.js\n- C:\\Users\\young\\AppData\\Local\\npm-cache\\_npx\\a1722018f28f9df2\\node_modules\\cross-spawn\\lib\\util\\resolveCommand.js\n- C:\\Users\\young\\AppData\\Local\\npm-cache\\_npx\\a1722018f28f9df2\\node_modules\\cross-spawn\\lib\\parse.js\n- C:\\Users\\young\\AppData\\Local\\npm-cache\\_npx\\a1722018f28f9df2\\node_modules\\cross-spawn\\index.js"
+}

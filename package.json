@@ -1,0 +1,12 @@
+{
+  "name": "katok-local-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent localhost messenger prototype with synthetic accounts",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server/index.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}
