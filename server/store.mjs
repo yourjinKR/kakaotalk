@@ -221,6 +221,20 @@ export class MessengerStore {
     });
   }
 
+  deleteFriend(userId, friendId) {
+    return this.#mutate(state => {
+      this.user(userId, state);
+      check(typeof friendId === 'string' && friendId.trim(), 400, '삭제할 친구 ID가 필요합니다.');
+      check(friendId !== userId, 400, '자신을 친구에서 삭제할 수 없습니다.');
+      this.user(friendId, state);
+      const index = state.friendships.findIndex(edge => edge.ownerId === userId && edge.userId === friendId);
+      const deleted = index !== -1;
+      // Friendship removal leaves the other direction and conversation state intact.
+      if (deleted) state.friendships.splice(index, 1);
+      return { changed: deleted, value: { userId: friendId, deleted }, notifyUserIds: [userId] };
+    });
+  }
+
   createRoom(userId, memberIds, title = '') {
     return this.#mutate(state => {
       this.user(userId, state);

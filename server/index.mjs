@@ -90,6 +90,9 @@ export async function createServer({ dataFile = process.env.KATOK_DATA_FILE || j
           const input = await body(request);
           return json(response, 200, await store.setFriendHidden(userId, decodeURIComponent(friendMatch[1]), input.hidden));
         }
+        if (method === 'DELETE' && friendMatch) {
+          return json(response, 200, await store.deleteFriend(userId, decodeURIComponent(friendMatch[1])));
+        }
         if (method === 'POST' && path === '/api/rooms') {
           const input = await body(request);
           return json(response, 201, await store.createRoom(userId, input.memberIds, input.title));

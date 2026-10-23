@@ -4,7 +4,7 @@ const state = {
   user: new URLSearchParams(location.search).get('user') || 'me', epoch: 0,
   data: null, mode: 'friends', friend: null, room: null, messages: [], readSequence: 0,
   query: '', selected: new Set(), drafts: new Map(), pending: new Map(), sending: new Set(),
-  source: null, refreshing: null, dirty: false, readPending: new Set(),
+  source: null, refreshing: null, dirty: false, readPending: new Set(), deletion: null, creating: null,
 };
 if (!['me', 'hana', 'jun', 'sora'].includes(state.user)) state.user = 'me';
 const keyFor = (user, room) => `${user}:${room}`;
@@ -59,6 +59,7 @@ function refresh() {
         const data = await api('/api/bootstrap', { user });
         if (epoch !== state.epoch) continue;
         state.data = data;
+        reconcileFriends();
         renderLists();
         renderAccount();
         if ($('manage-dialog').open) renderHidden();
@@ -134,11 +135,21 @@ function selectFriend(id) {
   renderLists();
   renderProfile();
 }
+function reconcileFriends() {
+  const visible = new Set(state.data.friends.filter(friend => !friend.hidden).map(friend => friend.id));
+  for (const id of state.selected) if (!visible.has(id)) state.selected.delete(id);
+  if ($('create-dialog').open) renderPicker();
+  if (state.friend && state.friend !== state.user && !state.data.friends.some(friend => friend.id === state.friend)) {
+    state.friend = null;
+    $('detail-panel').innerHTML = '<div class="welcome"><span class="welcome-art" aria-hidden="true">“</span><h2>다음 대화를 만나 보세요.</h2><p>친구 또는 채팅을 선택해 보세요.</p></div>';
+    $('workspace').classList.remove('mobile-detail');
+  }
+}
 function renderProfile() {
   const user = userById(state.friend);
   const self = user.id === state.user;
   const friend = state.data.friends.find(item => item.id === user.id);
-  $('detail-panel').innerHTML = `<div class="detail-heading"><button type="button" class="icon-button mobile-back" data-action="back" aria-label="목록으로">‹</button><div class="detail-heading-copy"><h2>${self ? '내 프로필' : '친구 프로필'}</h2><p class="detail-subtitle">${self ? '합성 테스트 계정' : '작은 안부가 시작되는 곳'}</p></div>${!self && friend ? `<button class="button subtle" type="button" data-hide="${escape(user.id)}" data-hidden="${!friend.hidden}">${friend.hidden ? '친구 복귀' : '친구 숨김'}</button>` : ''}</div><div class="profile-stage"><p class="profile-brow">A LITTLE CLOSER</p>${avatar(user, 'profile-avatar')}<h2>${escape(user.displayName)}</h2><span class="profile-id">@${escape(user.id)}</span><p class="profile-status">${escape(user.statusMessage)}</p>${!self ? `<button class="button primary" data-direct="${escape(user.id)}" type="button">대화 시작 <span aria-hidden="true">↗</span></button>` : '<span class="mute-tag">상단에서 다른 테스트 계정으로 전환할 수 있어요</span>'}<div class="profile-divider"></div><p class="profile-footer">오롯이, 우리 대화에 집중해요.</p></div>`;
+  $('detail-panel').innerHTML = `<div class="detail-heading"><button type="button" class="icon-button mobile-back" data-action="back" aria-label="목록으로">‹</button><div class="detail-heading-copy"><h2>${self ? '내 프로필' : '친구 프로필'}</h2><p class="detail-subtitle">${self ? '합성 테스트 계정' : '작은 안부가 시작되는 곳'}</p></div>${!self && friend ? `<button class="button subtle" type="button" data-hide="${escape(user.id)}" data-hidden="${!friend.hidden}">${friend.hidden ? '친구 복귀' : '친구 숨김'}</button>` : ''}</div><div class="profile-stage"><p class="profile-brow">A LITTLE CLOSER</p>${avatar(user, 'profile-avatar')}<h2>${escape(user.displayName)}</h2><span class="profile-id">@${escape(user.id)}</span><p class="profile-status">${escape(user.statusMessage)}</p>${!self ? `<button class="button primary" data-direct="${escape(user.id)}" type="button">대화 시작 <span aria-hidden="true">↗</span></button>${friend ? `<button class="button danger-subtle profile-delete" data-delete-friend="${escape(user.id)}" type="button">친구 삭제</button>` : ''}` : '<span class="mute-tag">상단에서 다른 테스트 계정으로 전환할 수 있어요</span>'}<div class="profile-divider"></div><p class="profile-footer">오롯이, 우리 대화에 집중해요.</p></div>`;
 }
 function openRoom(id) {
   rememberDraft();
@@ -235,18 +246,69 @@ function showDialog(id) {
   $(id).showModal();
   $(id).querySelector('input')?.focus();
 }
+function openDeleteFriend(id) {
+  const friend = state.data?.friends.find(item => item.id === id);
+  if (!friend || state.deletion) return;
+  state.deletion = { id, user: state.user, epoch: state.epoch, pending: false };
+  $('delete-friend-name').textContent = `${friend.displayName} (@${friend.id})`;
+  $('delete-error').textContent = '';
+  setDeletePending(false);
+  showDialog('delete-dialog');
+  $('delete-cancel').focus();
+}
+function setDeletePending(pending) {
+  for (const button of $('delete-dialog').querySelectorAll('button')) button.disabled = pending;
+  $('delete-submit').textContent = pending ? '삭제 중…' : '친구 삭제';
+  $('delete-form').setAttribute('aria-busy', String(pending));
+}
+async function deleteFriend(event) {
+  event.preventDefault();
+  const request = state.deletion;
+  if (!request || request.pending) return;
+  request.pending = true;
+  setDeletePending(true);
+  $('delete-error').textContent = '';
+  try {
+    await api(`/api/friends/${encodeURIComponent(request.id)}`, { method: 'DELETE', user: request.user });
+    if (request.epoch !== state.epoch || state.deletion !== request) return;
+    // Reflect the committed deletion even if the follow-up refresh loses its connection.
+    state.data.friends = state.data.friends.filter(friend => friend.id !== request.id);
+    reconcileFriends();
+    renderLists();
+    if ($('manage-dialog').open) renderHidden();
+    $('delete-dialog').close();
+    state.deletion = null;
+    toast('친구를 삭제했습니다. 기존 대화와 메시지 수신은 유지됩니다.');
+    if ($('manage-dialog').open) $('manage-dialog').querySelector('.close-dialog').focus();
+    else $('list-action').focus();
+    await refresh();
+  } catch (error) {
+    if (request.epoch === state.epoch && state.deletion === request) {
+      const message = error instanceof TypeError ? '서버에 연결하지 못했습니다.' : error.message;
+      $('delete-error').textContent = `${message} 목록을 확인하거나 다시 시도해 주세요.`;
+    }
+  } finally {
+    if (state.deletion === request) { request.pending = false; setDeletePending(false); $('delete-submit').focus(); }
+  }
+}
 function renderHidden() {
   const hidden = state.data.friends.filter(friend => friend.hidden);
   $('hidden-count').textContent = hidden.length;
-  $('hidden-list').innerHTML = hidden.map(friend => `<div class="manage-row">${avatar(friend)}<span class="person-copy"><span class="person-name">${escape(friend.displayName)}</span><span class="person-description">@${escape(friend.id)}</span></span><button class="button secondary" type="button" data-hide="${escape(friend.id)}" data-hidden="false">복귀</button></div>`).join('') || '<div class="empty-state">숨긴 친구가 없습니다.</div>';
+  $('hidden-list').innerHTML = hidden.map(friend => `<div class="manage-row">${avatar(friend)}<span class="person-copy"><span class="person-name">${escape(friend.displayName)}</span><span class="person-description">@${escape(friend.id)}</span></span><button class="button secondary" type="button" data-hide="${escape(friend.id)}" data-hidden="false">복귀</button><button class="button danger-subtle" type="button" data-delete-friend="${escape(friend.id)}" aria-label="${escape(friend.displayName)} 친구 삭제">삭제</button></div>`).join('') || '<div class="empty-state">숨긴 친구가 없습니다.</div>';
 }
 function renderPicker() {
   const query = $('create-search').value;
   const friends = state.data.friends.filter(friend => !friend.hidden && matches(`${friend.displayName} ${friend.id}`, query));
-  $('create-friends').innerHTML = friends.map(friend => `<label class="picker-row">${avatar(friend)}<span class="person-copy"><span class="person-name">${escape(friend.displayName)}</span><span class="person-description">@${escape(friend.id)}</span></span><input type="checkbox" value="${escape(friend.id)}" ${state.selected.has(friend.id) ? 'checked' : ''} aria-label="${escape(friend.displayName)} 선택"></label>`).join('') || '<div class="empty-state">선택할 친구가 없습니다.</div>';
+  const list = $('create-friends');
+  const focusedId = list.contains(document.activeElement) ? document.activeElement.value : null;
+  const html = friends.map(friend => `<label class="picker-row">${avatar(friend)}<span class="person-copy"><span class="person-name">${escape(friend.displayName)}</span><span class="person-description">@${escape(friend.id)}</span></span><input type="checkbox" value="${escape(friend.id)}" ${state.selected.has(friend.id) ? 'checked' : ''} aria-label="${escape(friend.displayName)} 선택"></label>`).join('') || '<div class="empty-state">선택할 친구가 없습니다.</div>';
+  if (list.innerHTML !== html) {
+    list.innerHTML = html;
+    if (focusedId) ([...list.querySelectorAll('input')].find(input => input.value === focusedId) || $('create-search')).focus();
+  }
   $('group-title-field').hidden = state.selected.size < 2;
   $('selection-count').textContent = `${state.selected.size}명 선택`;
-  $('create-submit').disabled = state.selected.size === 0;
+  $('create-submit').disabled = Boolean(state.creating) || state.selected.size === 0;
 }
 function openCreate() {
   state.selected.clear();
@@ -271,6 +333,7 @@ $('account-select').addEventListener('change', async event => {
   state.user = event.target.value;
   state.epoch++;
   state.data = null; state.room = null; state.friend = null; state.messages = []; state.query = '';
+  state.deletion = null; state.creating = null;
   for (const dialog of document.querySelectorAll('dialog[open]')) dialog.close();
   $('list-search').value = '';
   $('detail-panel').innerHTML = '<div class="welcome"><span class="welcome-art" aria-hidden="true">“</span><h2>새로운 시선으로,<br>다시 만나는 대화.</h2><p>친구 또는 채팅을 선택해 보세요.</p></div>';
@@ -293,7 +356,7 @@ $('create-friends').addEventListener('change', event => {
   if (event.target.checked) state.selected.add(event.target.value); else state.selected.delete(event.target.value);
   $('group-title-field').hidden = state.selected.size < 2;
   $('selection-count').textContent = `${state.selected.size}명 선택`;
-  $('create-submit').disabled = !state.selected.size;
+  $('create-submit').disabled = Boolean(state.creating) || !state.selected.size;
 });
 $('add-form').addEventListener('submit', async event => {
   event.preventDefault();
@@ -310,16 +373,27 @@ $('add-form').addEventListener('submit', async event => {
 });
 $('create-form').addEventListener('submit', async event => {
   event.preventDefault();
-  if (!state.selected.size) return;
+  if (!state.selected.size || state.creating) return;
+  const request = { epoch: state.epoch };
+  state.creating = request;
   $('create-submit').disabled = true; $('create-error').textContent = '';
-  try { await createRoom([...state.selected], $('group-title').value.trim()); $('create-dialog').close(); }
-  catch (error) { $('create-error').textContent = error.message; }
-  finally { $('create-submit').disabled = !state.selected.size; }
+  try {
+    await createRoom([...state.selected], $('group-title').value.trim());
+    if (request.epoch === state.epoch && state.creating === request) $('create-dialog').close();
+  } catch (error) {
+    if (request.epoch === state.epoch && state.creating === request) $('create-error').textContent = error.message;
+  } finally {
+    if (state.creating === request) { state.creating = null; $('create-submit').disabled = !state.selected.size; }
+  }
 });
+$('delete-form').addEventListener('submit', deleteFriend);
+$('delete-dialog').addEventListener('cancel', event => { if (state.deletion?.pending) event.preventDefault(); });
+$('delete-dialog').addEventListener('close', () => { state.deletion = null; });
 document.addEventListener('click', async event => {
   const target = event.target.closest('button');
   if (!target) return;
   if (target.classList.contains('close-dialog')) return target.closest('dialog').close();
+  if (target.dataset.deleteFriend) return openDeleteFriend(target.dataset.deleteFriend);
   if (target.dataset.person) return selectFriend(target.dataset.person);
   if (target.dataset.room) return openRoom(target.dataset.room);
   if (target.dataset.action === 'retry') return refresh();
