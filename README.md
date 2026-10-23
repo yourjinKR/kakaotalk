@@ -6,3 +6,4 @@
 ## 현재 버전
 
 - **v1**: https://github.com/yourjinKR/kakaotalk/tree/v1
+- **v2**: https://github.com/yourjinKR/kakaotalk/tree/v2
