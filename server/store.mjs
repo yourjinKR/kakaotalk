@@ -31,6 +31,7 @@ export function seedState() {
       { ownerId: 'hana', userId: 'me', hidden: false },
       { ownerId: 'jun', userId: 'me', hidden: false },
     ],
+    blocks: [],
     rooms: [{
       id: 'demo-direct', type: 'direct', title: '', memberIds: ['me', 'hana'],
       createdAt, updatedAt: createdAt, readCursors: { me: 0, hana: 1 },
@@ -47,6 +48,9 @@ export function seedState() {
 function validateState(state) {
   const invalid = () => { throw new Error('저장 데이터가 손상되었거나 지원하지 않는 형식입니다. 기존 파일을 보존했습니다.'); };
   if (!state || state.version !== 1 || !['users', 'friendships', 'rooms', 'messages'].every(key => Array.isArray(state[key]))) invalid();
+  // Version 1 files written before blocking are loaded without rewriting them.
+  if (!Object.hasOwn(state, 'blocks')) state.blocks = [];
+  if (!Array.isArray(state.blocks)) invalid();
   const unique = values => new Set(values).size === values.length;
   const string = value => typeof value === 'string';
   const date = value => string(value) && Number.isFinite(Date.parse(value));
@@ -55,6 +59,11 @@ function validateState(state) {
   const users = new Set(state.users.map(user => user.id));
   if (!unique(state.friendships.map(edge => `${edge?.ownerId}:${edge?.userId}`))) invalid();
   if (!state.friendships.every(edge => edge && users.has(edge.ownerId) && users.has(edge.userId) && edge.ownerId !== edge.userId && typeof edge.hidden === 'boolean')) invalid();
+  const edgeKey = edge => JSON.stringify([edge?.ownerId, edge?.userId]);
+  if (!unique(state.blocks.map(edgeKey))) invalid();
+  if (!state.blocks.every(edge => edge && users.has(edge.ownerId) && users.has(edge.userId) && edge.ownerId !== edge.userId)) invalid();
+  const friendships = new Set(state.friendships.map(edgeKey));
+  if (state.blocks.some(edge => friendships.has(edgeKey(edge)))) invalid();
   if (!unique(state.rooms.map(room => room?.id))) invalid();
   for (const room of state.rooms) {
     if (!room || !string(room.id) || !room.id || !['direct', 'group'].includes(room.type) || !string(room.title) || !Array.isArray(room.memberIds) || !unique(room.memberIds) || !room.memberIds.every(id => users.has(id))) invalid();
@@ -166,12 +175,23 @@ export class MessengerStore {
     };
   }
 
+  #hasBlock(ownerId, userId, state = this.#state) {
+    return state.blocks.some(edge => edge.ownerId === ownerId && edge.userId === userId);
+  }
+
+  #canSend(room, state = this.#state) {
+    if (room.type === 'group') return true;
+    const [first, second] = room.memberIds;
+    return !this.#hasBlock(first, second, state) && !this.#hasBlock(second, first, state);
+  }
+
   #roomView(room, userId, state = this.#state) {
     const messages = state.messages.filter(message => message.roomId === room.id);
     const lastMessage = messages.at(-1);
     return {
       id: room.id, type: room.type, title: room.title, memberIds: [...room.memberIds],
       createdAt: room.createdAt, updatedAt: room.updatedAt,
+      canSend: this.#canSend(room, state),
       lastMessage: lastMessage ? this.#messageView(lastMessage, room) : null,
       unreadCount: messages.filter(message => message.senderId !== userId && message.sequence > room.readCursors[userId]).length,
     };
@@ -183,6 +203,7 @@ export class MessengerStore {
       currentUser: { ...this.user(userId) },
       users: structuredClone(state.users),
       friends: state.friendships.filter(edge => edge.ownerId === userId).map(edge => ({ ...this.user(edge.userId), hidden: edge.hidden })),
+      blockedUsers: state.blocks.filter(edge => edge.ownerId === userId).map(edge => ({ ...this.user(edge.userId) })),
       rooms: state.rooms.filter(room => room.memberIds.includes(userId)).map(room => this.#roomView(room, userId)).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt) || a.id.localeCompare(b.id)),
       mode: 'localhost-demo',
     };
@@ -202,6 +223,7 @@ export class MessengerStore {
       check(typeof friendId === 'string' && friendId.trim(), 400, '추가할 친구 ID가 필요합니다.');
       check(friendId !== userId, 400, '자신을 친구로 추가할 수 없습니다.');
       const friend = this.user(friendId, state);
+      check(!this.#hasBlock(userId, friendId, state), 409, '차단한 사용자입니다. 차단을 해제한 뒤 다시 추가해 주세요.');
       const existing = state.friendships.find(edge => edge.ownerId === userId && edge.userId === friendId);
       check(!existing, 409, existing?.hidden ? '숨긴 친구입니다. 숨김 목록에서 복귀해 주세요.' : '이미 등록된 친구입니다.');
       state.friendships.push({ ownerId: userId, userId: friendId, hidden: false });
@@ -235,6 +257,33 @@ export class MessengerStore {
     });
   }
 
+  blockUser(userId, targetId) {
+    return this.#setBlocked(userId, targetId, true);
+  }
+
+  unblockUser(userId, targetId) {
+    return this.#setBlocked(userId, targetId, false);
+  }
+
+  #setBlocked(userId, targetId, blocked) {
+    return this.#mutate(state => {
+      this.user(userId, state);
+      check(typeof targetId === 'string' && targetId.trim(), 400, '차단 상태를 변경할 사용자 ID가 필요합니다.');
+      check(targetId !== userId, 400, '자신의 차단 상태를 변경할 수 없습니다.');
+      this.user(targetId, state);
+      const index = state.blocks.findIndex(edge => edge.ownerId === userId && edge.userId === targetId);
+      const changed = blocked !== (index !== -1);
+      if (changed && blocked) {
+        state.blocks.push({ ownerId: userId, userId: targetId });
+        // A block owns a separate directional relation. Unblocking never restores friendship.
+        state.friendships = state.friendships.filter(edge => edge.ownerId !== userId || edge.userId !== targetId);
+      } else if (changed) {
+        state.blocks.splice(index, 1);
+      }
+      return { changed, value: { userId: targetId, blocked, changed }, notifyUserIds: [userId, targetId] };
+    });
+  }
+
   createRoom(userId, memberIds, title = '') {
     return this.#mutate(state => {
       this.user(userId, state);
@@ -243,7 +292,9 @@ export class MessengerStore {
       const participants = [...new Set([userId, ...memberIds])];
       check(participants.length >= 2, 400, '다른 참여자를 한 명 이상 선택해 주세요.');
       for (const id of participants) this.user(id, state);
+      check(!participants.some(id => this.#hasBlock(userId, id, state)), 403, '이 참여자와 새 채팅을 만들 수 없습니다.');
       if (participants.length === 2) {
+        check(this.#canSend({ type: 'direct', memberIds: participants }, state), 403, '이 참여자와 새 채팅을 만들 수 없습니다.');
         const existing = state.rooms.find(room => room.type === 'direct' && room.memberIds.length === 2 && participants.every(id => room.memberIds.includes(id)));
         if (existing) return { changed: false, value: this.#roomView(existing, userId, state) };
       }
@@ -269,6 +320,8 @@ export class MessengerStore {
         check(existing.text === text.trim(), 409, '같은 요청 ID로 다른 메시지를 보낼 수 없습니다.');
         return { changed: false, value: this.#messageView(existing, room) };
       }
+      // Retry acknowledgements remain available for messages committed before a block.
+      check(this.#canSend(room, state), 403, '현재 이 대화에서는 메시지를 보낼 수 없습니다.');
       const previous = state.messages.filter(message => message.roomId === roomId).at(-1);
       const message = {
         id: randomUUID(), sequence: (previous?.sequence ?? 0) + 1, roomId, senderId: userId,

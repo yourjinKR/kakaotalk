@@ -6,6 +6,11 @@
 .button.danger-subtle { color: #934938; border: 1px solid #dcc8bf; }
 .button.danger-subtle:hover { background: #f6eae3; }
 .profile-delete { margin-top: 12px; }
+.send-restriction { margin: 0 0 12px; padding: 10px 12px; border-radius: 8px; background: #f6eae3; color: #7c3b2e; font-size: 12px; line-height: 1.7; }
+.composer textarea[readonly] { background: #f0f1e9; }
+.manage-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 5px; max-width: 135px; }
+.modal .manage-section { margin-top: 24px; }
+.member-row .button { padding: 7px 10px; font-size: 11px; flex-shrink: 0; }
 .person-description, .room-preview { color: #687563; font-size: 12px; }
 .person-name, .room-title { font-size: 14px; }
 .message-bubble { font-size: 14px; color: #354a35; }
