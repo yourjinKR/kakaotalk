@@ -7,3 +7,4 @@
 
 - **v1**: https://github.com/yourjinKR/kakaotalk/tree/v1
 - **v2**: https://github.com/yourjinKR/kakaotalk/tree/v2
+- **v3**: https://github.com/yourjinKR/kakaotalk/tree/v3
