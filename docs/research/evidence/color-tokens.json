@@ -1,0 +1,718 @@
+[
+  {
+    "id": "B100",
+    "hex": "000000"
+  },
+  {
+    "id": "B85",
+    "hex": "191919"
+  },
+  {
+    "id": "B70",
+    "hex": "424242"
+  },
+  {
+    "id": "B60",
+    "hex": "595959"
+  },
+  {
+    "id": "B55",
+    "hex": "696969"
+  },
+  {
+    "id": "B50",
+    "hex": "767676"
+  },
+  {
+    "id": "B40",
+    "hex": "949494"
+  },
+  {
+    "id": "B30",
+    "hex": "B3B3B3"
+  },
+  {
+    "id": "B25",
+    "hex": "BFBFBF"
+  },
+  {
+    "id": "B20",
+    "hex": "CCCCCC"
+  },
+  {
+    "id": "B15",
+    "hex": "D9D9D9"
+  },
+  {
+    "id": "B10",
+    "hex": "E6E6E6"
+  },
+  {
+    "id": "B5",
+    "hex": "EDEDED"
+  },
+  {
+    "id": "B3",
+    "hex": "F5F5F5"
+  },
+  {
+    "id": "B0",
+    "hex": "FFFFFF"
+  },
+  {
+    "id": "W100",
+    "hex": "FFFFFF"
+  },
+  {
+    "id": "W85",
+    "hex": "EDEDED"
+  },
+  {
+    "id": "W70",
+    "hex": "BEBEBE"
+  },
+  {
+    "id": "W60",
+    "hex": "ABABAB"
+  },
+  {
+    "id": "W50",
+    "hex": "939393"
+  },
+  {
+    "id": "W40",
+    "hex": "7D7D7D"
+  },
+  {
+    "id": "W30",
+    "hex": "696969"
+  },
+  {
+    "id": "W25",
+    "hex": "5C5C5C"
+  },
+  {
+    "id": "W20",
+    "hex": "4E4E4E"
+  },
+  {
+    "id": "W10",
+    "hex": "434343"
+  },
+  {
+    "id": "W5",
+    "hex": "383838"
+  },
+  {
+    "id": "W3",
+    "hex": "2D2D2D"
+  },
+  {
+    "id": "W0",
+    "hex": "222222"
+  },
+  {
+    "id": "Y100",
+    "hex": "FEE500"
+  },
+  {
+    "id": "Y100H",
+    "hex": "FADA0A"
+  },
+  {
+    "id": "Y100D",
+    "hex": "F2D00F"
+  },
+  {
+    "id": "Y50",
+    "hex": "FFF280"
+  },
+  {
+    "id": "R100",
+    "hex": "F4551E"
+  },
+  {
+    "id": "R50",
+    "hex": "F9AA8E"
+  },
+  {
+    "id": "BE",
+    "hex": "0A73DC"
+  },
+  {
+    "id": "BE5",
+    "hex": "F3F8FD"
+  },
+  {
+    "id": "OPEN01",
+    "hex": "666D77"
+  },
+  {
+    "id": "OPEN02",
+    "hex": "4EB985"
+  },
+  {
+    "id": "OPEN03",
+    "hex": "DA8278"
+  },
+  {
+    "id": "OPEN04",
+    "hex": "6C9FCD"
+  },
+  {
+    "id": "OPEN05",
+    "hex": "7369A0"
+  },
+  {
+    "id": "OPEN06",
+    "hex": "FF63C3"
+  },
+  {
+    "id": "OPEN07",
+    "hex": "4A90E2"
+  },
+  {
+    "id": "OPENLINK_BG_01",
+    "hex": "626d7c"
+  },
+  {
+    "id": "OPENLINK_BG_02",
+    "hex": "00a570"
+  },
+  {
+    "id": "OPENLINK_BG_03",
+    "hex": "d06f68"
+  },
+  {
+    "id": "OPENLINK_BG_04",
+    "hex": "6a5d93"
+  },
+  {
+    "id": "OPENLINK_BG_05",
+    "hex": "5390bc"
+  },
+  {
+    "id": "CHATBG01",
+    "hex": "BACEE0"
+  },
+  {
+    "id": "CHATBG02",
+    "hex": "677BAC"
+  },
+  {
+    "id": "CHATBG03",
+    "hex": "9DCDB8"
+  },
+  {
+    "id": "CHATBG04",
+    "hex": "51A5A0"
+  },
+  {
+    "id": "CHATBG05",
+    "hex": "9BB157"
+  },
+  {
+    "id": "CHATBG06",
+    "hex": "F8CD59"
+  },
+  {
+    "id": "CHATBG07",
+    "hex": "F99460"
+  },
+  {
+    "id": "CHATBG08",
+    "hex": "F68181"
+  },
+  {
+    "id": "CHATBG09",
+    "hex": "F7A2BD"
+  },
+  {
+    "id": "CHATBG10",
+    "hex": "5B4D49"
+  },
+  {
+    "id": "CHATBG11",
+    "hex": "D3D5D0"
+  },
+  {
+    "id": "CHATBG12",
+    "hex": "525252"
+  },
+  {
+    "id": "CHATBG13",
+    "hex": "404372"
+  },
+  {
+    "id": "CHATBG14",
+    "hex": "10374A"
+  },
+  {
+    "id": "CHATBG15",
+    "hex": "818B9C"
+  },
+  {
+    "id": "ADB100",
+    "hex": "000000"
+  },
+  {
+    "id": "ADB87",
+    "hex": "222222"
+  },
+  {
+    "id": "ADB50",
+    "hex": "808080"
+  },
+  {
+    "id": "ADB10",
+    "hex": "E6E6E6"
+  },
+  {
+    "id": "ADBG01",
+    "hex": "F3F3F3"
+  },
+  {
+    "id": "ADW100",
+    "hex": "FFFFFF"
+  },
+  {
+    "id": "UNREAD_SNOW01",
+    "hex": "4A5F89"
+  },
+  {
+    "id": "UNREAD_SNOW02",
+    "hex": "B6CEFE"
+  },
+  {
+    "id": "G100",
+    "hex": "00CD3C"
+  },
+  {
+    "id": "VRBG100",
+    "hex": "151515"
+  },
+  {
+    "id": "CHOONSIK_GAUGE",
+    "hex": "ED8D00"
+  },
+  {
+    "id": "JORDY_GAUGE",
+    "hex": "48CA7A"
+  },
+  {
+    "id": "INLINECODE_BKCOLOR_MYCHATLOG",
+    "hex": "E5CE00"
+  },
+  {
+    "id": "INLINECODE_BKCOLOR_MYCHATLOG_EXCEL",
+    "hex": "E5E1CA"
+  },
+  {
+    "id": "BROWN_01",
+    "hex": "423630"
+  },
+  {
+    "id": "BROWN_02",
+    "hex": "544a44"
+  },
+  {
+    "id": "BROWN_03",
+    "hex": "29211e"
+  },
+  {
+    "id": "CP01",
+    "hex": "FFDF00"
+  },
+  {
+    "id": "CP02",
+    "hex": "F14E4E"
+  },
+  {
+    "id": "CP03",
+    "hex": "FA7F60"
+  },
+  {
+    "id": "CP04",
+    "hex": "F59630"
+  },
+  {
+    "id": "CP05",
+    "hex": "8EBD32"
+  },
+  {
+    "id": "CP06",
+    "hex": "49A367"
+  },
+  {
+    "id": "CP07",
+    "hex": "23A597"
+  },
+  {
+    "id": "CP08",
+    "hex": "28A6B4"
+  },
+  {
+    "id": "CP09",
+    "hex": "429ED5"
+  },
+  {
+    "id": "CP10",
+    "hex": "4569A3"
+  },
+  {
+    "id": "CP11",
+    "hex": "745FAB"
+  },
+  {
+    "id": "CP12",
+    "hex": "9359B8"
+  },
+  {
+    "id": "CP13",
+    "hex": "D25698"
+  },
+  {
+    "id": "CP14",
+    "hex": "D9466B"
+  },
+  {
+    "id": "CP15",
+    "hex": "FFF18D"
+  },
+  {
+    "id": "CP16",
+    "hex": "F09895"
+  },
+  {
+    "id": "CP17",
+    "hex": "EE9E8A"
+  },
+  {
+    "id": "CP18",
+    "hex": "EDB477"
+  },
+  {
+    "id": "CP19",
+    "hex": "B1C36D"
+  },
+  {
+    "id": "CP20",
+    "hex": "80CF91"
+  },
+  {
+    "id": "CP21",
+    "hex": "8ACAC3"
+  },
+  {
+    "id": "CP22",
+    "hex": "96C7D1"
+  },
+  {
+    "id": "CP23",
+    "hex": "7FB8DA"
+  },
+  {
+    "id": "CP24",
+    "hex": "87A4D4"
+  },
+  {
+    "id": "CP25",
+    "hex": "AE9DDC"
+  },
+  {
+    "id": "CP26",
+    "hex": "B885CD"
+  },
+  {
+    "id": "CP27",
+    "hex": "E581B6"
+  },
+  {
+    "id": "CP28",
+    "hex": "EC9DAF"
+  },
+  {
+    "id": "CP29",
+    "hex": "F9F4D1"
+  },
+  {
+    "id": "CP30",
+    "hex": "FBDADA"
+  },
+  {
+    "id": "CP31",
+    "hex": "FCD5CB"
+  },
+  {
+    "id": "CP32",
+    "hex": "F3D9BC"
+  },
+  {
+    "id": "CP33",
+    "hex": "E8F4BA"
+  },
+  {
+    "id": "CP34",
+    "hex": "BDEBC7"
+  },
+  {
+    "id": "CP35",
+    "hex": "CFF0F2"
+  },
+  {
+    "id": "CP36",
+    "hex": "C5EFF4"
+  },
+  {
+    "id": "CP37",
+    "hex": "C7E5F7"
+  },
+  {
+    "id": "CP38",
+    "hex": "CDDCF3"
+  },
+  {
+    "id": "CP39",
+    "hex": "DED9F4"
+  },
+  {
+    "id": "CP40",
+    "hex": "E2D0EE"
+  },
+  {
+    "id": "CP41",
+    "hex": "F8D4E7"
+  },
+  {
+    "id": "CP42",
+    "hex": "FCE0E7"
+  },
+  {
+    "id": "CP43",
+    "hex": "1B1B1B"
+  },
+  {
+    "id": "CP44",
+    "hex": "C4C4C4"
+  },
+  {
+    "id": "CP45",
+    "hex": "FFFFFF"
+  },
+  {
+    "id": "EXCEL_CELL_LINE",
+    "hex": "CED6E7"
+  },
+  {
+    "id": "CALENDAR_BIRTHDAY_BG",
+    "hex": "F4BD02"
+  },
+  {
+    "id": "CALENDAR_TIME_BG",
+    "hex": "B2D7FF"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_ROYALBLUE",
+    "hex": "2d69e0"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_NAVYBLUE",
+    "hex": "223788"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_RED",
+    "hex": "d42726"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_PINK",
+    "hex": "ed5683"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_ORAGNE",
+    "hex": "ff9429"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_GREEN",
+    "hex": "149959"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_LIME",
+    "hex": "7cb343"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_OLIVE",
+    "hex": "a4ad15"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_MINT",
+    "hex": "5cc5be"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_MAGENTA",
+    "hex": "ab47bc"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_VIOLET",
+    "hex": "8a4b9b"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_LAVENDAR",
+    "hex": "7986cb"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_BROWN",
+    "hex": "945c1f"
+  },
+  {
+    "id": "CALENDAR_EVENT_COLOR_GRAY",
+    "hex": "666666"
+  },
+  {
+    "id": "PROFILE_BG_DEFAULT_AVG",
+    "hex": "918b84"
+  },
+  {
+    "id": "CMPOINT01",
+    "hex": "9DC7F1"
+  },
+  {
+    "id": "CMPOINT02",
+    "hex": "9CB758"
+  },
+  {
+    "id": "CHATUTILITY_GUIDE_SPACE",
+    "hex": "0a73dc"
+  },
+  {
+    "id": "CHATUTILITY_GUIDE_SPELL",
+    "hex": "ee0014"
+  },
+  {
+    "id": "CHATUTILITY_GUIDE_SPACE_SPELL",
+    "hex": "008a29"
+  },
+  {
+    "id": "CHAT_BOT_DESCRIPTION",
+    "hex": "e8f1ff"
+  },
+  {
+    "id": "GRAY990S",
+    "hex": "000000"
+  },
+  {
+    "id": "GRAY900S",
+    "hex": "000000"
+  },
+  {
+    "id": "GRAY800S",
+    "hex": "000000"
+  },
+  {
+    "id": "GRAY700S",
+    "hex": "424242"
+  },
+  {
+    "id": "GRAY600S",
+    "hex": "595959"
+  },
+  {
+    "id": "GRAY570S",
+    "hex": "696969"
+  },
+  {
+    "id": "GRAY550S",
+    "hex": "767676"
+  },
+  {
+    "id": "GRAY520S",
+    "hex": "000000"
+  },
+  {
+    "id": "GRAY500S",
+    "hex": "949494"
+  },
+  {
+    "id": "GRAY400S",
+    "hex": "B3B3B3"
+  },
+  {
+    "id": "GRAY300S",
+    "hex": "CCCCCC"
+  },
+  {
+    "id": "GRAY070S",
+    "hex": "000000"
+  },
+  {
+    "id": "GRAY050S",
+    "hex": "000000"
+  },
+  {
+    "id": "GRAY002S",
+    "hex": "000000"
+  },
+  {
+    "id": "GRAY001S",
+    "hex": "000000"
+  },
+  {
+    "id": "GRAY000S",
+    "hex": "000000"
+  },
+  {
+    "id": "WHITE003S",
+    "hex": "FFFFFF"
+  },
+  {
+    "id": "WHITE002S",
+    "hex": "FFFFFF"
+  },
+  {
+    "id": "WHITE001S",
+    "hex": "000000"
+  },
+  {
+    "id": "WHITE000S",
+    "hex": "000000"
+  },
+  {
+    "id": "YELLOW500S",
+    "hex": "FEE500"
+  },
+  {
+    "id": "BLUE500S",
+    "hex": "0A73DC"
+  },
+  {
+    "id": "BLUE300S",
+    "hex": "000000"
+  },
+  {
+    "id": "RED500S",
+    "hex": "F4551E"
+  },
+  {
+    "id": "GREEN600S",
+    "hex": "05AC36"
+  },
+  {
+    "id": "GREEN500S",
+    "hex": "000000"
+  },
+  {
+    "id": "LIGHTGRAY900S",
+    "hex": "000000"
+  },
+  {
+    "id": "LIGHTWHITE000S",
+    "hex": "FFFFFF"
+  },
+  {
+    "id": "LIGHTBLUE500S",
+    "hex": "0A73DC"
+  },
+  {
+    "id": "DARKWHITE003S",
+    "hex": "353535"
+  }
+]

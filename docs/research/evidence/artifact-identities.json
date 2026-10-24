@@ -1,0 +1,200 @@
+[
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\KakaoTalk.exe",
+    "relative_path": "KakaoTalk.exe",
+    "size_bytes": 25430632,
+    "last_write_time_utc": "2026-10-16T01:36:18.0000000Z",
+    "sha256": "23d0025988d3dd413801823657c5ac00e69945221d973aef7314f220142ab6a5",
+    "first_32_bytes_hex": "4d5a90000300000004000000ffff0000b8000000000000004000000000000000",
+    "file_version": "26.9.0.5337"
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "relative_path": "skin/default/resource/string_merge.xml",
+    "size_bytes": 1353901,
+    "last_write_time_utc": "2026-10-13T02:34:28.0000000Z",
+    "sha256": "b724986fc17b644287564bb263e7dd97aea267d5ea0443a6f9d99276a387b5ec",
+    "first_32_bytes_hex": "efbbbf3c3f786d6c2076657273696f6e3d27312e302720656e636f64696e673d",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\font\\font_ko.xml",
+    "relative_path": "skin/default/font/font_ko.xml",
+    "size_bytes": 8350,
+    "last_write_time_utc": "2026-02-09T04:45:34.0000000Z",
+    "sha256": "483a1f59c08048b4da1ea1e905da9d9cfda46b0171d9d1b08813235207094985",
+    "first_32_bytes_hex": "efbbbf3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\v3\\font\\font_ko.xml",
+    "relative_path": "skin/v3/font/font_ko.xml",
+    "size_bytes": 9945,
+    "last_write_time_utc": "2025-09-05T00:31:40.0000000Z",
+    "sha256": "fbb0b05f6086eb4f23cca1f05da60d9ffff6586322f6a99b6ffe0d6c55499a5c",
+    "first_32_bytes_hex": "efbbbf3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\v3\\color\\color.xml",
+    "relative_path": "skin/v3/color/color.xml",
+    "size_bytes": 14728,
+    "last_write_time_utc": "2026-10-08T08:49:38.0000000Z",
+    "sha256": "876c97130fe7d883d2f306381691a485700880b3766da56911a4ea4075d1102f",
+    "first_32_bytes_hex": "3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\MainView.xml",
+    "relative_path": "skin/default/layout/MainView.xml",
+    "size_bytes": 1792,
+    "last_write_time_utc": "2026-10-16T01:34:54.0000000Z",
+    "sha256": "c7d319ec71963525a385180764b60fa9a6cfb5e21283f400522c6108b3915bbc",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\FriendListView.xml",
+    "relative_path": "skin/default/layout/FriendListView.xml",
+    "size_bytes": 240,
+    "last_write_time_utc": "2025-08-20T11:39:08.0000000Z",
+    "sha256": "fa6993c87256f0d1c0a97fb5fa327c08e9bc2cec92143fbf7101858eb8ec255f",
+    "first_32_bytes_hex": "6df2366a345616f41a7e567e60b82755b74e43afc7439f594ccbd7292961652f",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\FriendListSearchView.xml",
+    "relative_path": "skin/default/layout/FriendListSearchView.xml",
+    "size_bytes": 2528,
+    "last_write_time_utc": "2025-08-20T11:39:08.0000000Z",
+    "sha256": "cd03f674fb0d33b5249f1514d33a7776845be3a26ab67fb2c78d6bf86adc1184",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\FriendManageListItem.xml",
+    "relative_path": "skin/default/layout/FriendManageListItem.xml",
+    "size_bytes": 1136,
+    "last_write_time_utc": "2025-08-20T11:39:08.0000000Z",
+    "sha256": "8b2e6123d53c3cd1387044d36df2d571a58520a88f05f8b4f1c80ce2bbe64f86",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\FriendManageBlockListItem.xml",
+    "relative_path": "skin/default/layout/FriendManageBlockListItem.xml",
+    "size_bytes": 1152,
+    "last_write_time_utc": "2025-08-20T11:39:08.0000000Z",
+    "sha256": "263266d900c29579fc7b6840022f956825be1ea62b93f8f87c7a411d7727b2dc",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\AddFriendDlg.xml",
+    "relative_path": "skin/default/layout/AddFriendDlg.xml",
+    "size_bytes": 2592,
+    "last_write_time_utc": "2025-08-20T11:39:08.0000000Z",
+    "sha256": "d1031005c7aa3d448467bc302a6ef9e06740bff6ac8cb80b745c1a830a94cf1d",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\addFriendByPhoneNumberView.xml",
+    "relative_path": "skin/default/layout/addFriendByPhoneNumberView.xml",
+    "size_bytes": 2320,
+    "last_write_time_utc": "2025-08-20T11:39:08.0000000Z",
+    "sha256": "e740670e320e6bec006ce7dd8de9339373a9124d118723279cc5ae474bb2693c",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\AddFriendByUUIDView.xml",
+    "relative_path": "skin/default/layout/AddFriendByUUIDView.xml",
+    "size_bytes": 7728,
+    "last_write_time_utc": "2025-08-20T11:39:08.0000000Z",
+    "sha256": "4c839d3a66750948388f3b900a036216bc57cd8e3f167d5f1d8ac96f270d67bb",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\ChatRoomListView.xml",
+    "relative_path": "skin/default/layout/ChatRoomListView.xml",
+    "size_bytes": 5536,
+    "last_write_time_utc": "2025-11-19T12:01:40.0000000Z",
+    "sha256": "4ae9c67cbe92ac34e3d9d3cb394f2197e32ef37303b3fbbd8c0b3e33d23c3a0f",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\ChatRoomListItem.xml",
+    "relative_path": "skin/default/layout/ChatRoomListItem.xml",
+    "size_bytes": 5744,
+    "last_write_time_utc": "2025-12-12T01:31:38.0000000Z",
+    "sha256": "c162afe5f00b5e19539fbe6acae156b3bbec9dcd81cb177733dacd00ce65513f",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\ChatDlg_EX.xml",
+    "relative_path": "skin/default/layout/ChatDlg_EX.xml",
+    "size_bytes": 33200,
+    "last_write_time_utc": "2026-05-13T04:17:18.0000000Z",
+    "sha256": "a9f97264eb5f532e4f682b3b42daefdb99e36eb8cdc39b90ef2700c8ae3db18c",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\ChatLogViewItem_MsgLeft.xml",
+    "relative_path": "skin/default/layout/ChatLogViewItem_MsgLeft.xml",
+    "size_bytes": 9536,
+    "last_write_time_utc": "2026-06-11T09:27:56.0000000Z",
+    "sha256": "6df0a27bad8f79374e7be55ec8ebcdc7bf52ad8248c0eac2e62ed26c16e5ca16",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\ChatLogViewItem_MsgRight.xml",
+    "relative_path": "skin/default/layout/ChatLogViewItem_MsgRight.xml",
+    "size_bytes": 6288,
+    "last_write_time_utc": "2026-04-06T07:01:02.0000000Z",
+    "sha256": "fce5cac849d1817287e695606472e8afedd6dec8c50616e114a4ba903f02e633",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\ChatLogBalloon_Left.xml",
+    "relative_path": "skin/default/layout/ChatLogBalloon_Left.xml",
+    "size_bytes": 576,
+    "last_write_time_utc": "2025-08-20T11:39:08.0000000Z",
+    "sha256": "7da7fe7c679fcc6c38731bad36fe0521a937918137701469a837f981085c5ed1",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\ChatLogBalloon_Right.xml",
+    "relative_path": "skin/default/layout/ChatLogBalloon_Right.xml",
+    "size_bytes": 592,
+    "last_write_time_utc": "2025-08-20T11:39:08.0000000Z",
+    "sha256": "8eadc9483f62979dcc370a0686e5efd12e9f5c9b0897ad790607e69aa558b061",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\ChatLogContentTextMessage.xml",
+    "relative_path": "skin/default/layout/ChatLogContentTextMessage.xml",
+    "size_bytes": 2016,
+    "last_write_time_utc": "2025-10-17T10:47:42.0000000Z",
+    "sha256": "6e823617e66eaae0b15eb30f6ca4c266f3f449b99b20879d98b7649a75bd85dc",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838aa3d18a6adbffbb4473878ac7e515fea9",
+    "file_version": null
+  },
+  {
+    "path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\layout\\ChatLogContentDayBreak.xml",
+    "relative_path": "skin/default/layout/ChatLogContentDayBreak.xml",
+    "size_bytes": 480,
+    "last_write_time_utc": "2025-12-12T01:31:38.0000000Z",
+    "sha256": "053f0d70a5f711af1e0ca4715b0bed11c222cc8c33cc7398ca6047ee5d550b87",
+    "first_32_bytes_hex": "39537d0f5aa72e9249dd50df1180838ae5615367ccd904a4dcb51803dcb6f8dd",
+    "file_version": null
+  }
+]

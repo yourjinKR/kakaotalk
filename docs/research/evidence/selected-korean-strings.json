@@ -1,0 +1,1376 @@
+[
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1114,
+    "string_id": "IDS_PROFILE_100046",
+    "ko": "나와의 채팅"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1194,
+    "string_id": "IDS_PROFILE_100064",
+    "ko": "최대 %d명의 부방장을 모두 지정했습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1847,
+    "string_id": "IDS_CONTACT_100001",
+    "ko": "즐겨찾는 친구"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1852,
+    "string_id": "IDS_CONTACT_100002",
+    "ko": "친구"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1857,
+    "string_id": "IDS_CONTACT_100003",
+    "ko": "명"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1862,
+    "string_id": "IDS_CONTACT_100004",
+    "ko": "내 프로필"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1867,
+    "string_id": "IDS_CONTACT_100005",
+    "ko": "이름 검색"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1872,
+    "string_id": "IDS_CONTACT_100006",
+    "ko": "채팅하기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1877,
+    "string_id": "IDS_CONTACT_100007",
+    "ko": "즐겨찾기 등록"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1882,
+    "string_id": "IDS_CONTACT_100008",
+    "ko": "프로필 보기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1887,
+    "string_id": "IDS_CONTACT_100009",
+    "ko": "즐겨찾기 해제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1892,
+    "string_id": "IDS_CONTACT_100010",
+    "ko": "친구이름이 모바일과 다른가요?"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1897,
+    "string_id": "IDS_CONTACT_100011",
+    "ko": "모바일 카카오톡의 '더보기-설정-친구'에서 친구 이름 동기화를 ON 하세요. PC버전을 다시 로그인하면 폰과 PC의 친구 이름이 동일하게 보입니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1902,
+    "string_id": "IDS_CONTACT_100012",
+    "ko": "목록에 더 이상 표시하지 않음"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1907,
+    "string_id": "IDS_CONTACT_100013",
+    "ko": "친구이름 동기화가 안 될 경우, 참고해주세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1912,
+    "string_id": "IDS_CONTACT_100014",
+    "ko": "친구를 추가해 보세요"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1917,
+    "string_id": "IDS_CONTACT_100015",
+    "ko": "우측 상단의 친구 추가 버튼을 눌러\n연락처와 카카오톡 ID로 친구를 찾아보세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1922,
+    "string_id": "IDS_CONTACT_100016",
+    "ko": "숨김"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1927,
+    "string_id": "IDS_CONTACT_100017",
+    "ko": "차단"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1932,
+    "string_id": "IDS_CONTACT_100018",
+    "ko": "숨긴 친구는 설정>친구>친구 관리에서 친구목록으로 복귀할 수 있습니다.\n상대방에게 더 이상 메시지를 받지 않으시려면 친구 관리에서 차단해주세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1937,
+    "string_id": "IDS_CONTACT_100019",
+    "ko": "차단하면 차단한 친구가 보내는 메시지를 받을 수 없으며, 친구 목록에서 삭제됩니다.\n차단 여부는 상대방이 알 수 없습니다.\n또한, 차단을 해제할 때 친구로 바로 추가할 수 없습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1942,
+    "string_id": "IDS_CONTACT_100020",
+    "ko": "새로운 친구"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1947,
+    "string_id": "IDS_CONTACT_100021",
+    "ko": "플로팅 띄우기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1952,
+    "string_id": "IDS_CONTACT_100022",
+    "ko": "플로팅 닫기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1957,
+    "string_id": "IDS_CONTACT_100023",
+    "ko": "(참여중)"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1962,
+    "string_id": "IDS_CONTACT_100024",
+    "ko": "보이스톡"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1967,
+    "string_id": "IDS_CONTACT_100027",
+    "ko": "삭제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1972,
+    "string_id": "IDS_CONTACT_100028",
+    "ko": "친구가 아닌 사용자"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1977,
+    "string_id": "IDS_CONTACT_100029",
+    "ko": "나에게"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1982,
+    "string_id": "IDS_CONTACT_100033",
+    "ko": "선물하기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1987,
+    "string_id": "IDS_CONTACT_100043",
+    "ko": "친구의 생일을 확인해 보세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1992,
+    "string_id": "IDS_CONTACT_100044",
+    "ko": "지난 생일"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 1997,
+    "string_id": "IDS_CONTACT_100045",
+    "ko": "오늘 생일"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2002,
+    "string_id": "IDS_CONTACT_100046",
+    "ko": "다가오는 생일"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2007,
+    "string_id": "IDS_CONTACT_100050",
+    "ko": "친구목록에서 숨김"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2012,
+    "string_id": "IDS_CONTACT_100051",
+    "ko": "프로필 전송"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2017,
+    "string_id": "IDS_CONTACT_100052",
+    "ko": "현재 채팅방"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2022,
+    "string_id": "IDS_CONTACT_100053",
+    "ko": "채팅"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2027,
+    "string_id": "IDS_CONTACT_100054",
+    "ko": "멀티프로필"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2032,
+    "string_id": "IDS_CHATROOMLIST_100001",
+    "ko": "오전 _TIME_"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2037,
+    "string_id": "IDS_CHATROOMLIST_100002",
+    "ko": "오후 _TIME_"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2042,
+    "string_id": "IDS_CHATROOMLIST_100003",
+    "ko": "어제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2047,
+    "string_id": "IDS_CHATROOMLIST_100004",
+    "ko": "채팅방 열기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2052,
+    "string_id": "IDS_CHATROOMLIST_100005",
+    "ko": "채팅방 나가기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2057,
+    "string_id": "IDS_CHATROOMLIST_100006",
+    "ko": "즐겨찾기 등록"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2062,
+    "string_id": "IDS_CHATROOMLIST_100007",
+    "ko": "채팅을 시작해보세요"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2067,
+    "string_id": "IDS_CHATROOMLIST_100008",
+    "ko": "우측 상단의 새로운 채팅 버튼을 눌러\n다양한 채팅방을 만들어보세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2072,
+    "string_id": "IDS_CHATROOMLIST_100009",
+    "ko": "대화 시작하기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2077,
+    "string_id": "IDS_CHATROOMLIST_100010",
+    "ko": "알림 끄기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2082,
+    "string_id": "IDS_CHATROOMLIST_100011",
+    "ko": "알림 켜기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2087,
+    "string_id": "IDS_CHATROOMLIST_100012",
+    "ko": "명)"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2092,
+    "string_id": "IDS_CHATROOMLIST_100013",
+    "ko": "_YY_. _MM_. _DD_"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2097,
+    "string_id": "IDS_CHATROOMLIST_100014",
+    "ko": "즐겨찾기 해제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2102,
+    "string_id": "IDS_CHATROOMLIST_100015",
+    "ko": "새로운 메시지가 왔습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2107,
+    "string_id": "IDS_CHATROOMLIST_100016",
+    "ko": "카카오톡"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2112,
+    "string_id": "IDS_CHATROOMLIST_100017",
+    "ko": "플로팅 띄우기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2117,
+    "string_id": "IDS_CHATROOMLIST_100018",
+    "ko": "플로팅 닫기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2122,
+    "string_id": "IDS_CHATROOMLIST_100019",
+    "ko": "채팅방, 참여자 검색"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2127,
+    "string_id": "IDS_CHATROOMLIST_100020",
+    "ko": "오픈채팅방 열기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2132,
+    "string_id": "IDS_CHATROOMLIST_100021",
+    "ko": "오픈채팅방 삭제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2137,
+    "string_id": "IDS_CHATROOMLIST_100025",
+    "ko": "오픈채팅방을 삭제하지 못했습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2142,
+    "string_id": "IDS_CHATROOMLIST_100026",
+    "ko": "대화 중인 오픈채팅방이 없습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2147,
+    "string_id": "IDS_CHATROOMLIST_100027",
+    "ko": "나가기를 하려면 링크를 삭제해야 합니다.\n오픈채팅목록 상단 설정에서 링크를 삭제해 주세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2152,
+    "string_id": "IDS_CHATROOMLIST_100030",
+    "ko": "오픈 채팅"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2157,
+    "string_id": "IDS_CHATROOMLIST_100031",
+    "ko": "최신 메시지 순"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2162,
+    "string_id": "IDS_CHATROOMLIST_100032",
+    "ko": "안 읽은 메시지 순"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2167,
+    "string_id": "IDS_CHATROOMLIST_100033",
+    "ko": "즐겨찾기 순"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2172,
+    "string_id": "IDS_CHATROOMLIST_100034",
+    "ko": "채팅방 상단 고정"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2177,
+    "string_id": "IDS_CHATROOMLIST_100035",
+    "ko": "채팅방 상단 해제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2182,
+    "string_id": "IDS_CHATROOMLIST_100036",
+    "ko": "10개까지 상단 고정할 수 있습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2187,
+    "string_id": "IDS_CHATROOMLIST_100037",
+    "ko": "우측 상단의 새로운 채팅 버튼을 눌러\n다양한 채팅방을 만들어보세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2192,
+    "string_id": "IDS_CHATROOMLIST_100038",
+    "ko": "친구를 추가하여 채팅을 시작해보세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2197,
+    "string_id": "IDS_CHATROOMLIST_100039",
+    "ko": "새로운 채팅방이 생성되었습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2202,
+    "string_id": "IDS_CHATROOMLIST_100041",
+    "ko": "읽음 처리"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2207,
+    "string_id": "IDS_CHATROOMLIST_100042",
+    "ko": "숨긴 나와의 채팅방은 내 프로필에서 확인하실 수 있으며, 메시지를 보내면 목록에 다시 나타납니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2212,
+    "string_id": "IDS_CHATROOMLIST_100043",
+    "ko": "나와의 채팅방 숨김"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2217,
+    "string_id": "IDS_CHATROOMLIST_100044",
+    "ko": "모두 읽음 처리"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2222,
+    "string_id": "IDS_CHATROOMLIST_100046",
+    "ko": "여러 채팅방 나가기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2227,
+    "string_id": "IDS_CHATROOMLIST_100050",
+    "ko": "오픈채팅 홈"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2232,
+    "string_id": "IDS_CHATROOMLIST_100051",
+    "ko": "참여중인 오픈채팅방이 없습니다"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2237,
+    "string_id": "IDS_CHATROOMLIST_100052",
+    "ko": "오픈채팅 홈에서 더 많은 오픈채팅방을\n찾아 볼 수 있습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2242,
+    "string_id": "IDS_CHATROOMLIST_100053",
+    "ko": "요약 및 읽음 처리"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2277,
+    "string_id": "IDS_RENAME_ME_TITLE",
+    "ko": "내 이름을 변경합니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2282,
+    "string_id": "IDS_RENAME_FRIEND_TITLE",
+    "ko": "친구의 이름을 입력해주세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 2287,
+    "string_id": "IDS_RENAME_CHATROOM_TITLE",
+    "ko": "채팅방 이름"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 3153,
+    "string_id": "IDS_CHAT_100137",
+    "ko": "답장 입력 취소"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 3228,
+    "string_id": "IDS_CHAT_100152",
+    "ko": "이미 삭제된 메시지입니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 3283,
+    "string_id": "IDS_CHAT_100163",
+    "ko": "차단친구와는 대화할 수 없습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 3876,
+    "string_id": "IDS_CHATLOG_100010",
+    "ko": "전송중"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 3881,
+    "string_id": "IDS_CHATLOG_100011",
+    "ko": "전송실패"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 4937,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100001",
+    "ko": "전체선택\tCtrl+A"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 4942,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100002",
+    "ko": "복사"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 4947,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100003",
+    "ko": "공유"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 4952,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100004",
+    "ko": "삭제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 4957,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100005",
+    "ko": "공지"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 4962,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100006",
+    "ko": "나에게"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 4967,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100007",
+    "ko": "게시글로 작성"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 4972,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100008",
+    "ko": "이모티콘 보러가기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 4977,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100009",
+    "ko": "#검색"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 4982,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100010",
+    "ko": "가리기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 4987,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100011",
+    "ko": "답장"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 4992,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100012",
+    "ko": "모두에게서 삭제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 4997,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100013",
+    "ko": "나에게서만 삭제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5002,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100014",
+    "ko": "가리기 && 신고"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5007,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100015",
+    "ko": "상단 고정 위치 이동"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5012,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100016",
+    "ko": "최상단으로"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5017,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100017",
+    "ko": "한 칸 위로"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5022,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100018",
+    "ko": "한 칸 아래로"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5027,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100019",
+    "ko": "링크 열기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5032,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100020",
+    "ko": "리액션"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5037,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100021",
+    "ko": "묶음사진 전체 공유"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5042,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100022",
+    "ko": "이 사진만 공유"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5047,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100023",
+    "ko": "메시지 보기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5052,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100024",
+    "ko": "신고"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5057,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100025",
+    "ko": "미니 이모티콘 보러가기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5062,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100027",
+    "ko": "수정"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5067,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100028",
+    "ko": "대화 캡처"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5082,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_CHATGPT",
+    "ko": "ChatGPT"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 5087,
+    "string_id": "IDS_CHATLOG_CONTEXTMENU_100029",
+    "ko": "태그"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 6002,
+    "string_id": "IDS_SHORTCUT_NEW_CHAT",
+    "ko": "Ctrl+N"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 6007,
+    "string_id": "IDS_SHORTCUT_ADD_FRIEND",
+    "ko": "Ctrl+A"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 6012,
+    "string_id": "IDS_SHORTCUT_SEARCH",
+    "ko": "Ctrl+F"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 6152,
+    "string_id": "IDS_SPAMREPORT_100008",
+    "ko": "현재 대화상대는 차단친구로 등록되어있습니다.\n차단한 친구에게는 메시지를 보낼 수 없습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 6397,
+    "string_id": "IDS_SPAMREPORT_100094",
+    "ko": "더 이상 친구를 차단할 수 없습니다. 최대 15,000명까지 차단 가능합니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7718,
+    "string_id": "IDS_ADDFRIENDDLG_100001",
+    "ko": "친구 추가"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7723,
+    "string_id": "IDS_ADDFRIENDDLG_100002",
+    "ko": "친구 카카오톡 ID"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7728,
+    "string_id": "IDS_ADDFRIENDDLG_100005",
+    "ko": "카카오톡 ID를 등록하고 검색을 허용한 친구만 찾을 수 있습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7733,
+    "string_id": "IDS_ADDFRIENDDLG_100006",
+    "ko": "채널 추가"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7738,
+    "string_id": "IDS_ADDFRIENDDLG_100007",
+    "ko": "입력하신 아이디로 등록한 회원이 없거나\n검색이 허용되지 않은 회원입니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7743,
+    "string_id": "IDS_ADDFRIENDDLG_100008",
+    "ko": "1:1 채팅"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7748,
+    "string_id": "IDS_ADDFRIENDDLG_100009",
+    "ko": "'{}'를 찾을 수 없습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7753,
+    "string_id": "IDS_ADDFRIENDDLG_100011",
+    "ko": "연락처로 추가"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7758,
+    "string_id": "IDS_ADDFRIENDDLG_100012",
+    "ko": "ID로 추가"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7763,
+    "string_id": "IDS_ADDFRIENDDLG_100014",
+    "ko": "친구 이름"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7768,
+    "string_id": "IDS_ADDFRIENDDLG_100015",
+    "ko": "전화번호"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7773,
+    "string_id": "IDS_ADDFRIENDDLG_100020",
+    "ko": "국가번호"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7778,
+    "string_id": "IDS_ADDFRIENDDLG_100021",
+    "ko": "친구의 이름과 전화번호를 입력해주세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7783,
+    "string_id": "IDS_ADDFRIENDDLG_100022",
+    "ko": "친구의 이름을 입력해주세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7788,
+    "string_id": "IDS_ADDFRIENDDLG_100024",
+    "ko": "친구 등록이 완료되었습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7793,
+    "string_id": "IDS_ADDFRIENDDLG_100025",
+    "ko": "친구에게 보여줄 프로필을 변경하거나\n바로 1:1 채팅을 시작해 보세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7798,
+    "string_id": "IDS_ADDFRIENDDLG_100026",
+    "ko": "1:1 채팅을 바로 시작해보세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7803,
+    "string_id": "IDS_ADDFRIENDDLG_100027",
+    "ko": "멀티프로필 지정"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7808,
+    "string_id": "IDS_ADDFRIENDDLG_100028",
+    "ko": "차단해제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7813,
+    "string_id": "IDS_ADDFRIENDDLG_100029",
+    "ko": "타인이나 기관인 척하며 친구 추가를 유도하는 경우 [차단 > 차단하고 신고] 버튼을 눌러 신고해 주세요.\n친구 추가 하시겠습니까?"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7818,
+    "string_id": "IDS_ADDFRIENDDLG_100030",
+    "ko": "숨김 설정된 친구입니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7823,
+    "string_id": "IDS_ADDFRIENDDLG_100031",
+    "ko": "이미 등록된 친구입니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7828,
+    "string_id": "IDS_ADDFRIENDDLG_100032",
+    "ko": "차단 해제 후 친구 등록이 완료되었습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7833,
+    "string_id": "IDS_ADDFRIENDDLG_100033",
+    "ko": "나 자신은 영원한 인생의 친구입니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7838,
+    "string_id": "IDS_ADDFRIENDDLG_100034",
+    "ko": "채널 추가가 완료되었습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7843,
+    "string_id": "IDS_ADDFRIENDDLG_100035",
+    "ko": "허위 프로필이 의심되는 사용자입니다. "
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7848,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100001",
+    "ko": "숨김 해제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7853,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100002",
+    "ko": "차단"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7858,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100003",
+    "ko": "메시지 차단 해제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7863,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100004",
+    "ko": "친구 목록 동기화"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7868,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100005",
+    "ko": "PC 버전의 친구 목록을 모바일 친구 목록으로 동기화합니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7873,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100006",
+    "ko": "최근 동기화"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7878,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100007",
+    "ko": "숨김 친구"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7883,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100008",
+    "ko": "숨김 친구가 없습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7888,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100009",
+    "ko": "차단 친구"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7893,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100010",
+    "ko": "차단 친구가 없습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7898,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100011",
+    "ko": "숨김 친구 해제가 실패하였습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7903,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100012",
+    "ko": "친구 차단이 실패하였습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7908,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100013",
+    "ko": "차단하시겠습니까?\n차단하면 친구가 보내는 메시지를 받을 수 없으며\n친구 목록에서 삭제됩니다.\n\n(차단 여부는 상대방이 알 수 없습니다)"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7913,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100014",
+    "ko": "친구 차단 해제가 실패하였습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7918,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100015",
+    "ko": "차단이 해제되었습니다.\n지금 바로 친구로 추가하시겠습니까?"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7923,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100016",
+    "ko": "친구가 차단되었습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7928,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100017",
+    "ko": "친구가 추가되었습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7933,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100018",
+    "ko": "친구 추가가 실패하였습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7938,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100019",
+    "ko": "숨김 친구가 해제되었습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7943,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100020",
+    "ko": "친구 동기화가 완료되었습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7948,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100021",
+    "ko": "{}초 후에 재시도 해주세요"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7953,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100022",
+    "ko": "(알 수 없음)"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7958,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100023",
+    "ko": "동기화"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7963,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100024",
+    "ko": "친구관리"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7968,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100025",
+    "ko": "선택한 친구를 삭제합니다.\n모바일 연락처에 등록되어 있어도 카카오톡 친구로 추가되지 않습니다.\n상대방이 보낸 메시지는 받을 수 있습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7973,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100026",
+    "ko": "친구가 삭제되었습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7978,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100027",
+    "ko": "친구 삭제가 실패하였습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7983,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100028",
+    "ko": "삭제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7988,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100029",
+    "ko": "메시지 차단, 프로필 비공개"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7993,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100030",
+    "ko": "메시지 차단"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 7998,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100031",
+    "ko": "관리"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8003,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100032",
+    "ko": "차단 관리"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8008,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100033",
+    "ko": "친구 보기 설정"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8013,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100034",
+    "ko": "생일인 친구 보기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8018,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100035",
+    "ko": "친구 목록에서 친구의 생일 정보를 보여줍니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8023,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100036",
+    "ko": "알림톡 차단"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8028,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100037",
+    "ko": "메시지, 알림톡 차단"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8033,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100038",
+    "ko": "알림톡 차단 해제"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8038,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100039",
+    "ko": "모두 해제하기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8043,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100040",
+    "ko": "차단이 해제되었습니다.\n지금 바로 채널을 추가하시겠습니까?"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8048,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100041",
+    "ko": "채널이 추가되었습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8053,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100042",
+    "ko": "채널 추가가 실패하였습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8058,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100044",
+    "ko": "숨김 채널이 해제되었습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8063,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100045",
+    "ko": "최근 동기화 :"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8068,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100046",
+    "ko": "업데이트 친구"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8073,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100047",
+    "ko": "업데이트한 친구 보기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8078,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100048",
+    "ko": "친구 목록에서 프로필을 업데이트한 친구를 모아서 보여줍니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8083,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100049",
+    "ko": "업데이트한 친구"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8088,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100050",
+    "ko": "친구의 프로필을 확인해보세요!"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8093,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100051",
+    "ko": "기억할 친구 보기"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8098,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100052",
+    "ko": "친구 목록에서 추모 프로필로 전환된 친구를 보여줍니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8103,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100053",
+    "ko": "선택한 친구를 삭제합니다.\n모바일 연락처에 등록되어 있어도 카카오톡 친구로 추가되지 않습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8108,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100054",
+    "ko": "친구가 숨김 처리되었습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8113,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100055",
+    "ko": "친구 숨김에 실패했습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8118,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100056",
+    "ko": "친구 차단에 실패했습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 8123,
+    "string_id": "IDS_FRIENDMNGRLSTCTRL_100057",
+    "ko": "알림톡 차단 시, 해당 채널의 중요 정보성 알림 메시지를 받을 수 없습니다. 채널 운영사에 따라 알림톡을 차단하더라도 같은 내용을 문자메시지 등 다른 방식으로 받으실 수 있습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 13967,
+    "string_id": "IDS_PLUS_FRIEND_100057",
+    "ko": "해당 채널의 광고와 마케팅 소식을 카카오톡에서 더 이상 받아보지 않게 됩니다. 다시 받고 싶을 경우, 설정 > 친구 > 차단친구 관리에서 차단을 해제할 수 있습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 13972,
+    "string_id": "IDS_PLUS_FRIEND_100058",
+    "ko": "해당 채널의 선거운동 메시지를 카카오톡에서 더 이상 받아보지 않게 됩니다. 다시 받고 싶을 경우, 설정 > 친구 > 차단친구 관리에서 차단을 해제할 수 있습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 14167,
+    "string_id": "IDS_BOT_100004",
+    "ko": "차단하시겠습니까?\n차단하면 차단한 봇이 보내는 메시지를 받을 수 없습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 14282,
+    "string_id": "IDS_MOA_SEND_FAIL_100009",
+    "ko": "삭제된 메시지 입니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 15184,
+    "string_id": "IDS_GROUPFACETALK_100012",
+    "ko": "본인 포함 최대 {}명까지 통화할 수 있습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 17512,
+    "string_id": "IDS_DRAWER_SECURE_TOKEN_100019",
+    "ko": "나와의 채팅방"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 18458,
+    "string_id": "IDS_CALENDAR_100133",
+    "ko": "차단한 친구에게는 메시지를 보내거나 받을 수 없습니다.\n대화를 하려면 먼저 차단을 해제해 주세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 18558,
+    "string_id": "IDS_CALENDAR_100213",
+    "ko": "참석자는 최대 3000명까지 초대할 수 있습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 20540,
+    "string_id": "IDS_WAREHOUSE_SETTING_STAFF_MANAGEMENT_ALERT_MAX_STAFF",
+    "ko": "최대 {}명의 부방장을 모두 지정했습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 20835,
+    "string_id": "IDS_MULTI_PROFILE_100003",
+    "ko": "프로필별 친구 관리"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 20955,
+    "string_id": "IDS_MULTI_PROFILE_100027",
+    "ko": "프로필별 최대 친구수 {}명을 초과하여 더 이상 추가할 수 없습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 20985,
+    "string_id": "IDS_MULTI_PROFILE_100033",
+    "ko": "멀티프로필 친구 지정은 최대 {}명까지 가능합니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 21005,
+    "string_id": "IDS_MULTI_PROFILE_100039",
+    "ko": "채팅방별 친구 관리"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 21015,
+    "string_id": "IDS_MULTI_PROFILE_100041",
+    "ko": "채팅방 친구 관리"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 21020,
+    "string_id": "IDS_MULTI_PROFILE_100042",
+    "ko": "채팅방 별로 프로필을 설정할 수 있는 채팅방별 친구 관리 메뉴가 추가되었어요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 21181,
+    "string_id": "IDS_INTEGRATED_SEARCH_FILTER_ERROR_100001",
+    "ko": "최대 5명까지 추가할 수 있습니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 21552,
+    "string_id": "IDS_SCREEN_SHOT_IMAGE_EDITOR_100040",
+    "ko": "전송중입니다. 전송 완료 후 미리보기창이 종료됩니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 26370,
+    "string_id": "IDS_FRIEND_INFO_TITLE",
+    "ko": "친구 정보"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 26375,
+    "string_id": "IDS_FRIEND_INFO_MEMO",
+    "ko": "메모"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 26380,
+    "string_id": "IDS_FRIEND_INFO_MEMO_INPUT",
+    "ko": "메모 입력"
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 26385,
+    "string_id": "IDS_FRIEND_INFO_MEMO_DESCRIPTION",
+    "ko": "입력된 메모는 나에게만 보입니다."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 26390,
+    "string_id": "IDS_FRIEND_INFO_NETWORK_FAIL",
+    "ko": "네트워크 연결을 확인해 주세요."
+  },
+  {
+    "source_path": "C:\\Program Files (x86)\\Kakao\\KakaoTalk\\skin\\default\\resource\\string_merge.xml",
+    "line": 28012,
+    "string_id": "IDS_CHATLOG_TAG_TOTAL_EXCEED",
+    "ko": "나와의 채팅방에서 태그는 최대 {}개까지 추가할 수 있습니다."
+  }
+]

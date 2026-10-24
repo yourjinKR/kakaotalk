@@ -1,0 +1,37 @@
+{
+  "record_kind": "manually-recorded-summary-of-actual-rea-cli-doctor-output",
+  "is_rea_evidence": false,
+  "date_seoul": "2026-10-24",
+  "command": "npx -y rea-agents@6.7.0 doctor --client codex --json",
+  "first_attempt": {
+    "environment": "sandbox",
+    "exit_code": 1,
+    "error": "ENOTFOUND registry.npmjs.org"
+  },
+  "successful_attempt": {
+    "exit_code": 0,
+    "healthy": true,
+    "environment_healthy": false,
+    "node_version": "22.23.2",
+    "host": "win32 x64",
+    "cli_package_version": "6.7.0",
+    "expected_skill_version": "42",
+    "skill_state": "aligned",
+    "codex_registration": {
+      "path": "C:\\Users\\young\\.codex\\config.toml",
+      "state": "aligned",
+      "command": ["cmd.exe", "/d", "/c", "npx", "-y", "rea-agents@6.7.0", "mcp"]
+    },
+    "live_server_state": "unknown",
+    "unavailable_native_engines": ["hopper", "ghidra", "ida", "kuna"],
+    "other_unavailable_engine": "jadx"
+  },
+  "changes_made": {
+    "client_configuration": false,
+    "provider_installation": false,
+    "skill_replacement": false,
+    "target_execution": false,
+    "npm_package_cache_acquisition": true
+  },
+  "limitation": "This is a selected summary, not the full doctor output and not an analysis Evidence record. Doctor validates registration and prerequisites, not the active agent MCP connection."
+}

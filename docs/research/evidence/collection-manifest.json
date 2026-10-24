@@ -1,0 +1,9 @@
+{
+  "evidence_kind": "ordinary-shell-static-resource-observation",
+  "collected_at_utc": "2026-10-24T07:59:54.3543467Z",
+  "install_root": "C:\\Program Files (x86)\\Kakao\\KakaoTalk",
+  "source_boundary": "Selected installed program files only; no AppData, account stores, private databases, live process or network traffic",
+  "copied_assets": false,
+  "identity_count": 22,
+  "selected_string_count": 229
+}
